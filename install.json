@@ -1,0 +1,11 @@
+{
+    "env": "dev",
+    "admin_email": "christophe@eteamsys.lu",
+    "url": "https://test.eteamsys.com" ,
+    "title": "test wp install" ,
+    "theme": "twentyeleven",
+    "plugins" : 
+            [
+                "contact-form-7",
+            ],
+}
