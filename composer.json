@@ -105,7 +105,7 @@
     "roots/wordpress": "5.2.2",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "eTeamsys/wp-library": "dev-master",
+    "eteamsys/wp-library": "dev-master",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "2.3.0",
     "wpackagist-plugin/autoptimize": "2.5.1",
