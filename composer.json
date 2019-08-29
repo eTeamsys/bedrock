@@ -27,6 +27,74 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+       "type": "vcs",
+       "url" : "git@github.com:eTeamsys/wp-library.git"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.7.12",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t={%version}"
+        },
+        "require": {
+          "composer/installers": "^1.4",
+          "ffraenz/private-composer-installer": "^2.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wpml/wpml-multilingual-cms",
+        "version": "4.2.7.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://wpml.org/?download=6088&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version={%version}"
+        },
+        "require": {
+          "composer/installers": "^1.4",
+          "ffraenz/private-composer-installer": "^2.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wpml/wpml-string-translation",
+        "version": "2.10.5.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://wpml.org/?download=6092&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version={%version}"
+        },
+        "require": {
+          "composer/installers": "^1.4",
+          "ffraenz/private-composer-installer": "^2.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wpml/wpml-translation-management",
+        "version": "2.8.6.2",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://wpml.org/?download=6094&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version={%version}"
+        },
+        "require": {
+          "composer/installers": "^1.4",
+          "ffraenz/private-composer-installer": "^2.0"
+        }
+      }
     }
   ],
   "require": {
@@ -36,7 +104,29 @@
     "oscarotero/env": "^1.2.0",
     "roots/wordpress": "5.2.2",
     "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "eTeamsys/wp-library": "dev-master",
+    "advanced-custom-fields/advanced-custom-fields-pro": "*",
+    "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "2.3.0",
+    "wpackagist-plugin/autoptimize": "2.5.1",
+    "wpackagist-plugin/clean-login": "1.9.10",
+    "wpackagist-plugin/contact-form-7": "5.1.3",
+    "wpackagist-plugin/cookie-notice": "1.2.46",
+    "wpackagist-plugin/disable-gutenberg": "1.8.1",
+    "wpackagist-plugin/duplicate-post": "3.2.3",
+    "wpackagist-plugin/ewww-image-optimizer": "4.8.1",
+    "wpackagist-plugin/flamingo": "2.0",
+    "wpackagist-plugin/loco-translate": "2.3.0",
+    "wpackagist-plugin/redirection": "4.3.1",
+    "wpackagist-plugin/regenerate-thumbnails": "3.1.1",
+    "wpackagist-plugin/safe-svg": "1.9.4",
+    "wpackagist-plugin/svg-support": "2.3.15",
+    "wpackagist-plugin/wordpress-seo": "11.7",
+    "wpackagist-plugin/wp-migrate-db": "1.0.11",
+    "wpackagist-plugin/wp-smartcrop": "2.0.2",
+    "wpml/wpml-multilingual-cms": "*",
+    "wpml/wpml-string-translation": "*",
+    "wpml/wpml-translation-management": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
@@ -60,6 +150,9 @@
   "scripts": {
     "post-root-package-install": [
       "php -r \"copy('.env.example', '.env');\""
+    ],
+    "post-create-project-cmd": [
+      "vendor/bin/wpinstall.php"
     ],
     "test": [
       "phpcs"
