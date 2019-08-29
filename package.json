@@ -1,0 +1,11 @@
+{
+    "package": {
+        "name": "eteamsys/bedrock",
+        "version": "1.0.0",
+        "source": {
+          "url": "https://github.com/eTeamsys/bedrock.git",
+          "type": "vcs",
+          "reference": "base/multilanguage"
+        }
+    }
+}
