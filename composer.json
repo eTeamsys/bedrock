@@ -127,8 +127,7 @@
     "wpackagist-plugin/wp-fastest-cache" : "*",
     "wpml/wpml-multilingual-cms": "*",
     "wpml/wpml-string-translation": "*",
-    "wpml/wpml-translation-management": "*",
-    "eTeamsys/wp-library": "dev-master"
+    "wpml/wpml-translation-management": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
