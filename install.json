@@ -7,5 +7,24 @@
     "plugins" : 
             [
                 "contact-form-7",
+                "wordpress-seo",
+                "advanced-custom-fields-pro",
+                "acf-content-analysis-for-yoast-seo",
+                "cookie-notice",
+                "disable-gutenberg",
+                "duplicate-post",
+                "ewww-image-optimizer",
+                "flamingo",
+                "loco-translate",
+                "redirection",
+                "regenerate-thumbnails",
+                "safe-svg",
+                "svg-support",
+                "wordpress-seo",
+                "wp-migrate-db",
+                "wp-smartcrop",
+                "wpml-multilingual-cms",
+                "wpml-string-translation",
+                "wpml-translation-management",
             ]
 }
