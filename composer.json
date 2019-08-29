@@ -126,7 +126,8 @@
     "wpackagist-plugin/wp-smartcrop": "2.0.2",
     "wpml/wpml-multilingual-cms": "*",
     "wpml/wpml-string-translation": "*",
-    "wpml/wpml-translation-management": "*"
+    "wpml/wpml-translation-management": "*",
+    "eTeamsys/wp-library": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
