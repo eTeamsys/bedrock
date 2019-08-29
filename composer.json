@@ -148,10 +148,10 @@
     "wordpress-install-dir": "web/wp"
   },
   "scripts": {
-    "post-root-package-install": [
+    "pre-install-cmd": [
       "php -r \"copy('.env.example', '.env');\""
     ],
-    "post-create-project-cmd": [
+    "post-install-cmd": [
       "vendor/bin/wpinstall.php"
     ],
     "test": [
