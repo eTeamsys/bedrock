@@ -17,11 +17,20 @@
     }
   ],
   "keywords": [
-    "bedrock", "composer", "roots", "wordpress", "wp", "wp-config"
+    "bedrock",
+    "roots",
+    "wordpress",
+    "stack",
+    "composer",
+    "vagrant",
+    "wp"
   ],
   "support": {
     "issues": "https://github.com/roots/bedrock/issues",
     "forum": "https://discourse.roots.io/category/bedrock"
+  },
+  "config": {
+    "preferred-install": "dist"
   },
   "repositories": [
     {
@@ -33,20 +42,8 @@
        "url" : "git@github.com:eTeamsys/wp-library.git"
     },
     {
-      "type": "package",
-      "package": {
-        "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.7.12",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t={%version}"
-        },
-        "require": {
-          "composer/installers": "^1.4",
-          "ffraenz/private-composer-installer": "^2.0"
-        }
-      }
+       "type": "vcs",
+       "url" : "git@github.com:eTeamsys/maisonscompere_theme.git"
     },
     {
       "type": "package",
@@ -95,68 +92,76 @@
           "ffraenz/private-composer-installer": "^2.0"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.7.6",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download"
+        },
+        "require": {
+          "philippbaschke/acf-pro-installer": "^1.0",
+          "composer/installers": "^1.0"
+        }
+      }
     }
   ],
   "require": {
-    "php": ">=7.1",
-    "composer/installers": "^1.7",
-    "vlucas/phpdotenv": "^3.4.0",
-    "oscarotero/env": "^1.2.0",
-    "roots/wordpress": "5.2.2",
-    "roots/wp-config": "1.0.0",
+    "php": ">=5.6",
+    "composer/installers": "^1.4",
+    "vlucas/phpdotenv": "^2.0.1",
+    "johnpbloch/wordpress": "4.9.9",
+    "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "eteamsys/wp-library": "dev-master",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
-    "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "2.3.0",
-    "wpackagist-plugin/autoptimize": "2.5.1",
-    "wpackagist-plugin/clean-login": "1.9.10",
-    "wpackagist-plugin/contact-form-7": "5.1.3",
-    "wpackagist-plugin/cookie-notice": "1.2.46",
-    "wpackagist-plugin/disable-gutenberg": "1.8.1",
-    "wpackagist-plugin/duplicate-post": "3.2.3",
-    "wpackagist-plugin/ewww-image-optimizer": "4.8.1",
-    "wpackagist-plugin/flamingo": "2.0",
-    "wpackagist-plugin/loco-translate": "2.3.0",
-    "wpackagist-plugin/redirection": "4.3.1",
-    "wpackagist-plugin/regenerate-thumbnails": "3.1.1",
-    "wpackagist-plugin/safe-svg": "1.9.4",
-    "wpackagist-plugin/svg-support": "2.3.15",
-    "wpackagist-plugin/wordpress-seo": "11.7",
-    "wpackagist-plugin/wp-migrate-db": "1.0.11",
-    "wpackagist-plugin/wp-smartcrop": "2.0.2",
-    "wpackagist-plugin/wp-fastest-cache" : "*",
+    "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "dev-trunk",
+    "wpackagist-plugin/acf-flexible-content-modal": "dev-trunk",
+    "wpackagist-plugin/advanced-custom-fields-font-awesome": "dev-trunk",
+    "wpackagist-plugin/autoptimize": "dev-trunk",
+    "wpackagist-plugin/breadcrumb-navxt": "^6.2.1",
+    "wpackagist-plugin/contact-form-7": "^5.0.2",
+    "wpackagist-plugin/cookie-notice": "^1.2",
+    "wpackagist-plugin/duplicate-post": "dev-trunk",
+    "wpackagist-plugin/ewww-image-optimizer": "^4.2.1",
+    "wpackagist-plugin/redirection": "^3.6.3",
+    "wpackagist-plugin/simple-share-buttons-adder": "dev-trunk",
+    "wpackagist-plugin/wordpress-seo": "dev-trunk",
+    "wpackagist-plugin/wp-fastest-cache": "dev-trunk",
+    "wpackagist-plugin/wp-migrate-db": "dev-trunk",
+    "wpackagist-plugin/yoast-seo-settings-xml-csv-import": "dev-trunk",
+    "eteamsys/maisonscompere_theme": "dev-master",
     "wpml/wpml-multilingual-cms": "*",
     "wpml/wpml-string-translation": "*",
     "wpml/wpml-translation-management": "*"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.4.2",
-    "roave/security-advisories": "dev-master"
+    "squizlabs/php_codesniffer": "^3.0.2"
   },
-  "config": {
-    "optimize-autoloader": true,
-    "preferred-install": "dist",
-    "sort-packages": true
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+      "web/app/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "web/app/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "web/app/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
     },
     "wordpress-install-dir": "web/wp"
   },
   "scripts": {
-    "pre-install-cmd": [
+    "post-root-package-install": [
       "php -r \"copy('.env.example', '.env');\""
     ],
     "post-install-cmd": [
       "vendor/bin/wpinstall.php"
-    ],
-    "test": [
-      "phpcs"
     ]
   }
 }
