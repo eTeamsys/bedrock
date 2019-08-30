@@ -168,12 +168,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/wp-library.git",
-                "reference": "e577b5d02ea5f051b588ae0b8139a967adc80aec"
+                "reference": "1451904441c6b428409eac16d3c88723d931e789"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/e577b5d02ea5f051b588ae0b8139a967adc80aec",
-                "reference": "e577b5d02ea5f051b588ae0b8139a967adc80aec",
+                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/1451904441c6b428409eac16d3c88723d931e789",
+                "reference": "1451904441c6b428409eac16d3c88723d931e789",
                 "shasum": ""
             },
             "bin": [
@@ -189,7 +189,7 @@
                 "source": "https://github.com/eTeamsys/wp-library/tree/master",
                 "issues": "https://github.com/eTeamsys/wp-library/issues"
             },
-            "time": "2019-08-30T14:40:57+00:00"
+            "time": "2019-08-30T14:44:46+00:00"
         },
         {
             "name": "ffraenz/private-composer-installer",
