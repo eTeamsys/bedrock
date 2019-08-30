@@ -96,12 +96,28 @@
     {
       "type": "package",
       "package": {
-        "name": "wpml/wpml-translation-management",
-        "version": "2.8.6.2",
+        "name": "wpml/wpml-string-translation",
+        "version": "2.10.5.1",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "https://wpml.org/?download=6094&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version={%version}"
+          "url": "https://wpml.org/?download=6092&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version={%version}"
+        },
+        "require": {
+          "composer/installers": "^1.4",
+          "ffraenz/private-composer-installer": "^2.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wpml/wpml-media-translation",
+        "version": "2.5.2",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://wpml.org/?download=7474&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version={%version}"
         },
         "require": {
           "composer/installers": "^1.4",
@@ -138,6 +154,7 @@
     "wpackagist-plugin/classic-editor": "*",
     "wpackagist-plugin/monkeyman-rewrite-analyzer": "*",
     "wpackagist-plugin/yoast-seo-settings-xml-csv-import": "dev-trunk",
+    "wpackagist-plugin/wp-all-import": "*",
     "eteamsys/maisonscompere_theme": "dev-master",
     "wpml/wpml-multilingual-cms": "*",
     "wpml/wpml-string-translation": "*",

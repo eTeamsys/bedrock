@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b2a9505800b6534abb3b0a5689cabe5",
+    "content-hash": "895465dc9596c9cc9d1b0d83bfc4c18f",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -168,12 +168,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/wp-library.git",
-                "reference": "565d5856c84a853a5fe97383b49eebe8e007090d"
+                "reference": "43d8bda411480577ded5e6296484afbbde3188e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/565d5856c84a853a5fe97383b49eebe8e007090d",
-                "reference": "565d5856c84a853a5fe97383b49eebe8e007090d",
+                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/43d8bda411480577ded5e6296484afbbde3188e0",
+                "reference": "43d8bda411480577ded5e6296484afbbde3188e0",
                 "shasum": ""
             },
             "bin": [
@@ -189,7 +189,7 @@
                 "source": "https://github.com/eTeamsys/wp-library/tree/master",
                 "issues": "https://github.com/eTeamsys/wp-library/issues"
             },
-            "time": "2019-08-30T12:54:52+00:00"
+            "time": "2019-08-30T13:50:02+00:00"
         },
         {
             "name": "ffraenz/private-composer-installer",
@@ -924,6 +924,24 @@
             "time": "2019-08-20T11:17:36+00:00"
         },
         {
+            "name": "wpackagist-plugin/wp-all-import",
+            "version": "3.5.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-all-import/",
+                "reference": "tags/3.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-all-import.3.5.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-all-import/"
+        },
+        {
             "name": "wpackagist-plugin/wp-fastest-cache",
             "version": "dev-trunk",
             "source": {
@@ -979,6 +997,19 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/yoast-seo-settings-xml-csv-import/",
             "time": "2019-05-07T17:44:46+00:00"
+        },
+        {
+            "name": "wpml/wpml-media-translation",
+            "version": "2.5.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://wpml.org/?download=7474&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=2.5.2"
+            },
+            "require": {
+                "composer/installers": "^1.4",
+                "ffraenz/private-composer-installer": "^2.0"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "wpml/wpml-multilingual-cms",
