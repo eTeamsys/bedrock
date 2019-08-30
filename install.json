@@ -4,27 +4,5 @@
     "theme": "maisonscompere_theme",
     "dump_file": "./dump/dev_maisoncompere.sql",
     "update": true,
-    "plugins": 
-            [
-                "acf-content-analysis-for-yoast-seo", 
-                "acf-flexible-content-modal", 
-                "advanced-custom-fields-font-awesome", 
-                "advanced-custom-fields-pro", 
-                "amp", 
-                "breadcrumb-navxt", 
-                "classic-editor", 
-                "cookie-notice", 
-                "duplicate-post", 
-                "ewww-image-optimizer",
-                "monkeyman-rewrite-analyzer", 
-                "redirection",
-                "simple-share-buttons-adder", 
-                "yoast-seo-settings-xml-csv-import", 
-                "wp-migrate-db", 
-                "wpml-all-import", 
-                "wpml-media-translation", 
-                "sitepress-multilingual-cms", 
-                "wpml-string-translation", 
-                "wordpress-seo"
-            ]
+    "plugins": []
 }
