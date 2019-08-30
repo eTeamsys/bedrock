@@ -1,7 +1,7 @@
 {
     "env": "staging",
     "url": "https://maisonscompere.eteamsys.com",
-    "dump_file": "./dump/dev_maisoncompere.zip",
+    "dump_file": "./dump/dev_maisoncompere.sql.zip",
     "update": true,
     "plugins": []
 }
