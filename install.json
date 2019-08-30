@@ -22,7 +22,7 @@
                 "yoast-seo-settings-xml-csv-import", 
                 "wp-migrate-db", 
                 "wpml-media-translation", 
-                "sitepress-multilingual-cms", 
+                "wpml-multilingual-cms", 
                 "wpml-string-translation", 
                 "wordpress-seo"
             ]
