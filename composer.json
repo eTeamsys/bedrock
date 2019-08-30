@@ -120,6 +120,7 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "eteamsys/wp-library": "dev-master",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
+    "acf-content-analysis-for-yoast-seo", 
     "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "dev-trunk",
     "wpackagist-plugin/acf-flexible-content-modal": "dev-trunk",
     "wpackagist-plugin/advanced-custom-fields-font-awesome": "dev-trunk",
@@ -141,7 +142,8 @@
     "eteamsys/maisonscompere_theme": "dev-master",
     "wpml/wpml-multilingual-cms": "*",
     "wpml/wpml-string-translation": "*",
-    "wpml/wpml-translation-management": "*"
+    "wpml/wpml-translation-management": "*",
+    "wpml/wpml-media-translation": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
