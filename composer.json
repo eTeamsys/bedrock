@@ -120,7 +120,6 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "eteamsys/wp-library": "dev-master",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
-    "acf-content-analysis-for-yoast-seo", 
     "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "dev-trunk",
     "wpackagist-plugin/acf-flexible-content-modal": "dev-trunk",
     "wpackagist-plugin/advanced-custom-fields-font-awesome": "dev-trunk",
