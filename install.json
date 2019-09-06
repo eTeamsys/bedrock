@@ -24,6 +24,7 @@
                 "wp-smartcrop",
                 "wpml-multilingual-cms",
                 "wpml-string-translation",
+                "wpml-media-translation",
                 "wpml-translation-management"
             ]
 }

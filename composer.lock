@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ecf6b182391dce63e8edddde8f67cd33",
+    "content-hash": "ea159830e44f992496f5e0085f180c38",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
-            "version": "5.7.12",
+            "version": "5.8.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t=5.7.12"
+                "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t=5.8.3"
             },
             "require": {
                 "composer/installers": "^1.4",
@@ -147,12 +147,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/wp-library.git",
-                "reference": "a32b49b0fab7e342a40e0377ccc35ed93f9039de"
+                "reference": "fbd338064e0153cd6fee01e5dd59d28dbe7c53f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/a32b49b0fab7e342a40e0377ccc35ed93f9039de",
-                "reference": "a32b49b0fab7e342a40e0377ccc35ed93f9039de",
+                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/fbd338064e0153cd6fee01e5dd59d28dbe7c53f0",
+                "reference": "fbd338064e0153cd6fee01e5dd59d28dbe7c53f0",
                 "shasum": ""
             },
             "bin": [
@@ -168,7 +168,7 @@
                 "source": "https://github.com/eTeamsys/wp-library/tree/master",
                 "issues": "https://github.com/eTeamsys/wp-library/issues"
             },
-            "time": "2019-08-29T15:46:42+00:00"
+            "time": "2019-08-30T14:50:01+00:00"
         },
         {
             "name": "ffraenz/private-composer-installer",
@@ -320,16 +320,16 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "5.2.2",
+            "version": "5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "5.2.2"
+                "reference": "5.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2.2",
-                "reference": "5.2.2"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2.3",
+                "reference": "5.2.3"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -353,7 +353,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-06-18T17:53:14+00:00"
+            "time": "2019-09-04T22:41:56+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
@@ -681,15 +681,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "5.1.3",
+            "version": "5.1.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/5.1.3"
+                "reference": "tags/5.1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -717,15 +717,15 @@
         },
         {
             "name": "wpackagist-plugin/disable-gutenberg",
-            "version": "1.8.1",
+            "version": "1.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disable-gutenberg/",
-                "reference": "tags/1.8.1"
+                "reference": "tags/1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-gutenberg.1.8.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/disable-gutenberg.1.9.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -753,15 +753,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "4.8.1",
+            "version": "4.9.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/4.8.1"
+                "reference": "tags/4.9.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.4.8.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.4.9.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -807,15 +807,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "4.3.1",
+            "version": "4.3.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/4.3.1"
+                "reference": "tags/4.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.4.3.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.4.3.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -948,6 +948,19 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-smartcrop/"
+        },
+        {
+            "name": "wpml/wpml-media-translation",
+            "version": "2.5.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://wpml.org/?download=7474&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=2.5.2"
+            },
+            "require": {
+                "composer/installers": "^1.4",
+                "ffraenz/private-composer-installer": "^2.0"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "wpml/wpml-multilingual-cms",
