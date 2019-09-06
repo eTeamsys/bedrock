@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea159830e44f992496f5e0085f180c38",
+    "content-hash": "689b36eb4604040e03e2f20fe5086540",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -948,58 +948,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-smartcrop/"
-        },
-        {
-            "name": "wpml/wpml-media-translation",
-            "version": "2.5.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://wpml.org/?download=7474&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=2.5.2"
-            },
-            "require": {
-                "composer/installers": "^1.4",
-                "ffraenz/private-composer-installer": "^2.0"
-            },
-            "type": "wordpress-plugin"
-        },
-        {
-            "name": "wpml/wpml-multilingual-cms",
-            "version": "4.2.7.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://wpml.org/?download=6088&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=4.2.7.1"
-            },
-            "require": {
-                "composer/installers": "^1.4",
-                "ffraenz/private-composer-installer": "^2.0"
-            },
-            "type": "wordpress-plugin"
-        },
-        {
-            "name": "wpml/wpml-string-translation",
-            "version": "2.10.5.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://wpml.org/?download=6092&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=2.10.5.1"
-            },
-            "require": {
-                "composer/installers": "^1.4",
-                "ffraenz/private-composer-installer": "^2.0"
-            },
-            "type": "wordpress-plugin"
-        },
-        {
-            "name": "wpml/wpml-translation-management",
-            "version": "2.8.6.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://wpml.org/?download=6094&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=2.8.6.2"
-            },
-            "require": {
-                "composer/installers": "^1.4",
-                "ffraenz/private-composer-installer": "^2.0"
-            },
-            "type": "wordpress-plugin"
         }
     ],
     "packages-dev": [
