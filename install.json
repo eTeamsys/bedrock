@@ -4,7 +4,6 @@
     "db_prefix": "mc_",
     "dump_file": "./dump/dev_maisoncompere.sql.zip",
     "theme": "maisonscompere_theme",
-    "dump_file": "./dump/dev_maisoncompere.sql",
     "plugins": 
             [
                 "acf-content-analysis-for-yoast-seo", 
