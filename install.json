@@ -1,6 +1,7 @@
 {
     "env": "staging",
     "url": "https://maisonscompere.eteamsys.com",
+    "db_prefix": "mc_",
     "dump_file": "./dump/dev_maisoncompere.sql.zip",
     "theme": "maisonscompere_theme",
     "dump_file": "./dump/dev_maisoncompere.sql",
