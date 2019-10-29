@@ -49,7 +49,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.7.12",
+        "version": "5.8.0",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -65,7 +65,7 @@
       "type": "package",
       "package": {
         "name": "wpml/wpml-multilingual-cms",
-        "version": "4.2.7.1",
+        "version": "4.3.1",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -81,7 +81,7 @@
       "type": "package",
       "package": {
         "name": "wpml/wpml-string-translation",
-        "version": "2.10.5.1",
+        "version": "3.0.1",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -96,12 +96,12 @@
     {
       "type": "package",
       "package": {
-        "name": "wpml/wpml-string-translation",
-        "version": "2.10.5.1",
+        "name": "wpml/wpml-translation-management",
+        "version": "2.9.0",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "https://wpml.org/?download=6092&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version={%version}"
+          "url": "https://wpml.org/?download=6094&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version={%version}"
         },
         "require": {
           "composer/installers": "^1.4",
@@ -113,7 +113,7 @@
       "type": "package",
       "package": {
         "name": "wpml/wpml-media-translation",
-        "version": "2.5.2",
+        "version": "2.5.4",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -131,7 +131,7 @@
     "composer/installers": "^1.7",
     "vlucas/phpdotenv": "^3.4.0",
     "oscarotero/env": "^1.2.0",
-    "roots/wordpress": "5.2.2",
+    "roots/wordpress": "5.2.3",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "eteamsys/wp-library": "dev-master",
@@ -141,11 +141,11 @@
     "wpackagist-plugin/advanced-custom-fields-font-awesome": "dev-trunk",
     "wpackagist-plugin/autoptimize": "dev-trunk",
     "wpackagist-plugin/breadcrumb-navxt": "^6.2.1",
-    "wpackagist-plugin/contact-form-7": "^5.0.2",
-    "wpackagist-plugin/cookie-notice": "^1.2",
+    "wpackagist-plugin/contact-form-7": "*",
+    "wpackagist-plugin/cookie-notice": "*",
     "wpackagist-plugin/duplicate-post": "dev-trunk",
-    "wpackagist-plugin/ewww-image-optimizer": "^4.2.1",
-    "wpackagist-plugin/redirection": "^3.6.3",
+    "wpackagist-plugin/ewww-image-optimizer": "*",
+    "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/simple-share-buttons-adder": "dev-trunk",
     "wpackagist-plugin/wordpress-seo": "dev-trunk",
     "wpackagist-plugin/wp-fastest-cache": "dev-trunk",
