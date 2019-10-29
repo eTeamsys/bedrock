@@ -4,5 +4,28 @@
     "acl": true,
     "cache": true,
     "user": "maisonscompere",
-    "group": "maisonscompere"
+    "group": "maisonscompere",
+    "theme": "maisonscompere_theme",
+    "plugins": 
+            [
+                "acf-content-analysis-for-yoast-seo", 
+                "acf-flexible-content-modal", 
+                "advanced-custom-fields-font-awesome", 
+                "advanced-custom-fields-pro", 
+                "amp", 
+                "breadcrumb-navxt", 
+                "classic-editor", 
+                "cookie-notice", 
+                "duplicate-post", 
+                "ewww-image-optimizer",
+                "monkeyman-rewrite-analyzer", 
+                "redirection",
+                "simple-share-buttons-adder", 
+                "yoast-seo-settings-xml-csv-import", 
+                "wp-migrate-db", 
+                "wpml-media-translation", 
+                "wpml-multilingual-cms", 
+                "wpml-string-translation", 
+                "wordpress-seo"
+            ]
 }
