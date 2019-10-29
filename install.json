@@ -26,6 +26,11 @@
                 "wpml-media-translation", 
                 "wpml-multilingual-cms", 
                 "wpml-string-translation", 
-                "wordpress-seo"
+                "wordpress-seo",
+                "cache-enabler",
+                "cdn-enabler",
+                "amazon-web-services",
+                "amazon-s3-and-cloudfront"
+        
             ]
 }
