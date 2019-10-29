@@ -1,4 +1,8 @@
 {
     "env": "prod",
-    "url": "https://maisonscompere.eteamsys.com"
+    "url": "https://www.maisonscompere.be",
+    "acl": true,
+    "cache": true,
+    "user": "maisonscopere",
+    "group": "maisonscopere"
 }
