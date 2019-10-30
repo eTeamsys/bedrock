@@ -1,6 +1,4 @@
 # !/bin/bash
 
-base_dir=$1
-
- ln -s /media/efs $base_dir/web/app/uploads
+ ln -s /media/efs $(pwd)/web/app/uploads
 

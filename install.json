@@ -6,7 +6,7 @@
     "group": "www-data",
     "theme": "maisonscompere_theme",
     "app_writable_folder": [
-        "eww",
+        "ewww",
         "languages"
     ],
     "add_script": "scripts/install_uploads.sh",
