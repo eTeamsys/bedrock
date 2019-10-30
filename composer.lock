@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d306bb43d51f22ad59091ef08ceb8acc",
+    "content-hash": "110b5de3e4f73900b8fcd82f0e6ae69c",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -168,12 +168,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/wp-library.git",
-                "reference": "b2fd96d15f871851f9e3b9ae1825b1adc442f185"
+                "reference": "8983a8f2dda1a637a49c28e427bae922f7face82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/b2fd96d15f871851f9e3b9ae1825b1adc442f185",
-                "reference": "b2fd96d15f871851f9e3b9ae1825b1adc442f185",
+                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/8983a8f2dda1a637a49c28e427bae922f7face82",
+                "reference": "8983a8f2dda1a637a49c28e427bae922f7face82",
                 "shasum": ""
             },
             "bin": [
@@ -189,7 +189,7 @@
                 "source": "https://github.com/eTeamsys/wp-library/tree/master",
                 "issues": "https://github.com/eTeamsys/wp-library/issues"
             },
-            "time": "2019-10-29T11:26:08+00:00"
+            "time": "2019-10-30T14:44:32+00:00"
         },
         {
             "name": "ffraenz/private-composer-installer",

@@ -2,9 +2,13 @@
     "env": "prod",
     "url": "https://www.maisonscompere.be",
     "cache": true,
-    "user": "www-data",
+    "user": "root",
     "group": "www-data",
     "theme": "maisonscompere_theme",
+    "app_writable_folder": [
+        "eww",
+        "languages"
+    ],
     "plugins": 
             [
                 "acf-content-analysis-for-yoast-seo", 

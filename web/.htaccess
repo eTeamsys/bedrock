@@ -1,0 +1,49 @@
+# 301 --- http://www.woningencompere.be/43125/persoonlijke-levenssfeer => https://www.woningencompere.be/
+RewriteRule ^43125/persoonlijke\-levenssfeer$ /? [L,R=301]
+
+# 301 --- http://www.woningencompere.be/Startpagina => https://www.woningencompere.be/
+RewriteRule ^Startpagina$ /? [L,R=301]
+
+#RewriteCond %{HTTP:X-Forwarded-Proto} =http
+#RewriteRule . https://%{HTTP:Host}%{REQUEST_URI} [L,R=permanent]
+
+#old url format to new format
+# houses listing page redirection
+
+RewriteRule ^7/liste-(.*)$ liste-des-modeles-de-maisons-cle-sur-porte-avec-plans-classes-par-prix/ [R=301,L]
+RewriteRule ^7/lijst-(.*)$ lijst-van-sleutel-op-de-deur-modelwoningen-met-plan-gerangschikt-op-prijs/ [R=301,L]
+
+#home models url format FR
+RewriteRule ^([0-9]+)\/maison-cle-sur-porte\/mc([0-9]+)$ maisons/$1-maison-cle-sur-porte-mc$2/ [R=301,L]
+
+#home models url format NL
+RewriteRule ^([0-9]+)\/sleutel-op-de-deur\/wc([0-9]+)$ houses/$1-sleutel-op-de-deur-wc$2/ [R=301,L]
+
+
+#articles url format
+RewriteRule ^([0-9]+)\/(.*)$ $1-$2/ [R=301,L]
+
+# add a trailing slash to /wp-admin
+RewriteRule ^wp-admin$ wp-admin/ [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^(wp-(content|admin|includes).*) wp/$1 [L]
+RewriteRule ^(.*\.php)$ wp/$1 [L]
+RewriteRule . index.php [L]
+
+<FilesMatch ".(eot|ttf|otf|woff)">
+        Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
