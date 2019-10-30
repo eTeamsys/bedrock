@@ -147,20 +147,20 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/maisonscompere_theme.git",
-                "reference": "42f310ea40bf6c4554ed4cbb20e7712993bcd84a"
+                "reference": "8813c05b92e3c6c8b62cf8bd96a00535764645a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/maisonscompere_theme/zipball/42f310ea40bf6c4554ed4cbb20e7712993bcd84a",
-                "reference": "42f310ea40bf6c4554ed4cbb20e7712993bcd84a",
+                "url": "https://api.github.com/repos/eTeamsys/maisonscompere_theme/zipball/8813c05b92e3c6c8b62cf8bd96a00535764645a1",
+                "reference": "8813c05b92e3c6c8b62cf8bd96a00535764645a1",
                 "shasum": ""
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/eTeamsys/maisonscompere_theme/tree/hotfix",
+                "source": "https://github.com/eTeamsys/maisonscompere_theme/tree/master",
                 "issues": "https://github.com/eTeamsys/maisonscompere_theme/issues"
             },
-            "time": "2019-10-25T11:52:14+00:00"
+            "time": "2019-10-30T20:29:22+00:00"
         },
         {
             "name": "eTeamsys/wp-library",
