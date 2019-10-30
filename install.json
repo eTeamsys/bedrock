@@ -9,6 +9,7 @@
         "eww",
         "languages"
     ],
+    "add_script": "scripts/install_uploads.sh",
     "plugins": 
             [
                 "acf-content-analysis-for-yoast-seo", 
