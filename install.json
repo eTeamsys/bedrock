@@ -2,8 +2,8 @@
     "env": "prod",
     "url": "https://www.maisonscompere.be",
     "cache": true,
-    "user": "maisonscompere",
-    "group": "maisonscompere",
+    "user": "www-data",
+    "group": "www-data",
     "theme": "maisonscompere_theme",
     "plugins": 
             [
