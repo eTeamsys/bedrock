@@ -65,7 +65,7 @@
       "type": "package",
       "package": {
         "name": "wpml/wpml-multilingual-cms",
-        "version": "4.2.7.1",
+        "version": "4.3.1",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -81,27 +81,11 @@
       "type": "package",
       "package": {
         "name": "wpml/wpml-string-translation",
-        "version": "2.10.5.1",
+        "version": "3.0.1",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
           "url": "https://wpml.org/?download=6092&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version={%version}"
-        },
-        "require": {
-          "composer/installers": "^1.4",
-          "ffraenz/private-composer-installer": "^2.0"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "wpml/wpml-translation-management",
-        "version": "2.8.6.2",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "https://wpml.org/?download=6094&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version={%version}"
         },
         "require": {
           "composer/installers": "^1.4",
@@ -143,24 +127,20 @@
     "wpackagist-plugin/breadcrumb-navxt": "^6.2.1",
     "wpackagist-plugin/contact-form-7": "*",
     "wpackagist-plugin/cookie-notice": "*",
+    "wpackagist-plugin/flamingo": "*",
     "wpackagist-plugin/duplicate-post": "dev-trunk",
     "wpackagist-plugin/ewww-image-optimizer": "*",
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/simple-share-buttons-adder": "dev-trunk",
     "wpackagist-plugin/wordpress-seo": "dev-trunk",
     "wpackagist-plugin/wp-fastest-cache": "dev-trunk",
-    "wpackagist-plugin/wp-migrate-db": "dev-trunk",
     "wpackagist-plugin/amp": "*",
     "wpackagist-plugin/classic-editor": "*",
     "wpackagist-plugin/cache-enabler": "*",
-    "wpackagist-plugin/amazon-s3-and-cloudfront": "*",
     "wpackagist-plugin/cdn-enabler": "*",
-    "wpackagist-plugin/amazon-web-services": "*",
-    "wpackagist-plugin/yoast-seo-settings-xml-csv-import": "dev-trunk",
     "eteamsys/maisonscompere_theme": "dev-master",
     "wpml/wpml-multilingual-cms": "*",
     "wpml/wpml-string-translation": "*",
-    "wpml/wpml-translation-management": "*",
     "wpml/wpml-media-translation": "*"
   },
   "require-dev": {

@@ -1,7 +1,6 @@
 {
     "env": "prod",
     "url": "https://www.maisonscompere.be",
-    "acl": true,
     "cache": true,
     "user": "maisonscompere",
     "group": "maisonscompere",
@@ -13,24 +12,22 @@
                 "advanced-custom-fields-font-awesome", 
                 "advanced-custom-fields-pro", 
                 "amp", 
+                "autoptimize",
+                "contact-form-7",
                 "breadcrumb-navxt", 
                 "classic-editor", 
                 "cookie-notice", 
-                "duplicate-post", 
+                "duplicate-post",
+                "flamingo",
                 "ewww-image-optimizer",
-                "monkeyman-rewrite-analyzer", 
                 "redirection",
                 "simple-share-buttons-adder", 
-                "yoast-seo-settings-xml-csv-import", 
                 "wp-migrate-db", 
                 "wpml-media-translation", 
                 "wpml-multilingual-cms", 
                 "wpml-string-translation", 
                 "wordpress-seo",
                 "cache-enabler",
-                "cdn-enabler",
-                "amazon-web-services",
-                "amazon-s3-and-cloudfront"
-        
+                "cdn-enabler"
             ]
 }
