@@ -2,9 +2,11 @@
     "env": "prod",
     "url": "https://www.maisonscompere.be",
     "cache": true,
+    "flush": true,
     "user": "root",
     "group": "www-data",
     "theme": "maisonscompere_theme",
+    "update_theme" : true,
     "app_writable_folder": [
         "ewww",
         "languages"
