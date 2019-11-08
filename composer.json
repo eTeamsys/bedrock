@@ -124,7 +124,7 @@
     "wpackagist-plugin/acf-flexible-content-modal": "dev-trunk",
     "wpackagist-plugin/advanced-custom-fields-font-awesome": "dev-trunk",
     "wpackagist-plugin/autoptimize": "dev-trunk",
-    "wpackagist-plugin/breadcrumb-navxt": "^6.2.1",
+    "wpackagist-plugin/breadcrumb-navxt": "*",
     "wpackagist-plugin/contact-form-7": "*",
     "wpackagist-plugin/cookie-notice": "*",
     "wpackagist-plugin/flamingo": "*",
