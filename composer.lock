@@ -227,16 +227,17 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/wp-library.git",
-                "reference": "4a58948abc36de646d8c414fdaaac65a887d8c85"
+                "reference": "056163faefaaff8d6819628fb3cf9f00a13a41cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/4a58948abc36de646d8c414fdaaac65a887d8c85",
-                "reference": "4a58948abc36de646d8c414fdaaac65a887d8c85",
+                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/056163faefaaff8d6819628fb3cf9f00a13a41cd",
+                "reference": "056163faefaaff8d6819628fb3cf9f00a13a41cd",
                 "shasum": ""
             },
             "bin": [
-                "bin/wpinstall.php"
+                "bin/wpinstall.php",
+                "bin/wp-migrate-domain.php"
             ],
             "type": "library",
             "autoload": {
@@ -248,7 +249,7 @@
                 "source": "https://github.com/eTeamsys/wp-library/tree/master",
                 "issues": "https://github.com/eTeamsys/wp-library/issues"
             },
-            "time": "2019-10-30T16:08:51+00:00"
+            "time": "2019-11-08T08:40:59+00:00"
         },
         {
             "name": "ffraenz/private-composer-installer",
@@ -505,28 +506,28 @@
         },
         {
             "name": "phpoption/phpoption",
-            "version": "1.5.0",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "94e644f7d2051a5f0fcf77d81605f152eecff0ed"
+                "reference": "2ba2586380f8d2b44ad1b9feb61c371020b27793"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/94e644f7d2051a5f0fcf77d81605f152eecff0ed",
-                "reference": "94e644f7d2051a5f0fcf77d81605f152eecff0ed",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/2ba2586380f8d2b44ad1b9feb61c371020b27793",
+                "reference": "2ba2586380f8d2b44ad1b9feb61c371020b27793",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.7.*"
+                "phpunit/phpunit": "^4.7|^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -536,7 +537,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "Apache2"
+                "Apache-2.0"
             ],
             "authors": [
                 {
@@ -551,7 +552,7 @@
                 "php",
                 "type"
             ],
-            "time": "2015-07-25T16:39:46+00:00"
+            "time": "2019-11-06T22:27:00+00:00"
         },
         {
             "name": "roots/wordpress",
