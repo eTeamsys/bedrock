@@ -18,6 +18,7 @@ web/wp
 
 # Logs
 *.log
+.env
 
 # Composer
 /vendor
