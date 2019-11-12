@@ -1,3 +1,22 @@
+# AUTO install
+
+clone this repository (if it isn't already done)
+
+git clone git@github.com:eTeamsys/bedrock.git
+
+use Branch customer/preprod/maisonscompere
+git clone origin customer/preprod/maisonscompere
+
+you have to push your theme modification in integration branch 
+https://github.com/eTeamsys/maisonscompere_theme/tree/integration
+
+make sure all plugin version (ACF, WPML) in composer.json
+
+use composer update.
+Add, commit and push
+
+each 10 minutes, update and build is done in https://preprod.maisonscompere.be and https://preprod.woningencompere.be
+
 # [Bedrock](https://roots.io/bedrock/)
 
 [![Packagist](https://img.shields.io/packagist/v/roots/bedrock.svg?style=flat-square)](https://packagist.org/packages/roots/bedrock)
