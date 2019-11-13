@@ -1,17 +1,16 @@
 {
-    "env": "preprod",
-    "url": "https://www.maisonscompere.be",
+    "env": "staging",
+    "url": "https://maisonscompere.eteamsys.com",
     "cache": true,
     "flush": true,
     "user": "root",
-    "group": "www-data",
+    "group": "apache",
     "theme": "maisonscompere_theme",
     "update_theme" : true,
     "app_writable_folder": [
         "ewww",
         "languages"
     ],
-    "add_script": "scripts/install_uploads.sh",
     "plugins": 
             [
                 "acf-content-analysis-for-yoast-seo", 
@@ -19,7 +18,6 @@
                 "advanced-custom-fields-font-awesome", 
                 "advanced-custom-fields-pro", 
                 "amp", 
-                "autoptimize",
                 "contact-form-7",
                 "breadcrumb-navxt", 
                 "classic-editor", 
@@ -32,8 +30,6 @@
                 "wpml-media-translation", 
                 "wpml-multilingual-cms", 
                 "wpml-string-translation", 
-                "wordpress-seo",
-                "cache-enabler",
-                "cdn-enabler"
+                "wordpress-seo"
             ]
 }
