@@ -161,6 +161,7 @@
     "wordpress-install-dir": "web/wp"
   },
   "scripts": {
+    "remove-git-submodules" : "find . -type d -name .git | xargs rm -rf",
     "post-root-package-install": [
       "php -r \"copy('.env.example', '.env');\""
     ],
