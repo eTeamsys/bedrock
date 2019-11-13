@@ -203,12 +203,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/maisonscompere_theme.git",
-                "reference": "bf863f0f179106d2f71a03ffeef0985a13956d23"
+                "reference": "34f7d0cb3afae68d7981b0b3138cd3a9cfeba6ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/maisonscompere_theme/zipball/bf863f0f179106d2f71a03ffeef0985a13956d23",
-                "reference": "bf863f0f179106d2f71a03ffeef0985a13956d23",
+                "url": "https://api.github.com/repos/eTeamsys/maisonscompere_theme/zipball/34f7d0cb3afae68d7981b0b3138cd3a9cfeba6ab",
+                "reference": "34f7d0cb3afae68d7981b0b3138cd3a9cfeba6ab",
                 "shasum": ""
             },
             "require": {
@@ -216,10 +216,10 @@
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/eTeamsys/maisonscompere_theme/tree/master",
+                "source": "https://github.com/eTeamsys/maisonscompere_theme/tree/develop",
                 "issues": "https://github.com/eTeamsys/maisonscompere_theme/issues"
             },
-            "time": "2019-11-05T14:37:11+00:00"
+            "time": "2019-11-07T13:57:05+00:00"
         },
         {
             "name": "eTeamsys/wp-library",
@@ -227,12 +227,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/wp-library.git",
-                "reference": "f5f83d997dd78f616af77c797c7a5635e9c34441"
+                "reference": "d0fd94061be556b609e9ef3a5978b810d855e8d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/f5f83d997dd78f616af77c797c7a5635e9c34441",
-                "reference": "f5f83d997dd78f616af77c797c7a5635e9c34441",
+                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/d0fd94061be556b609e9ef3a5978b810d855e8d2",
+                "reference": "d0fd94061be556b609e9ef3a5978b810d855e8d2",
                 "shasum": ""
             },
             "bin": [
@@ -249,7 +249,7 @@
                 "source": "https://github.com/eTeamsys/wp-library/tree/master",
                 "issues": "https://github.com/eTeamsys/wp-library/issues"
             },
-            "time": "2019-11-08T11:41:25+00:00"
+            "time": "2019-11-11T15:59:28+00:00"
         },
         {
             "name": "ffraenz/private-composer-installer",
@@ -1029,15 +1029,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "5.1.4",
+            "version": "5.1.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/5.1.4"
+                "reference": "tags/5.1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1047,15 +1047,15 @@
         },
         {
             "name": "wpackagist-plugin/cookie-notice",
-            "version": "1.2.46",
+            "version": "1.2.48",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cookie-notice/",
-                "reference": "tags/1.2.46"
+                "reference": "tags/1.2.48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cookie-notice.1.2.46.zip"
+                "url": "https://downloads.wordpress.org/plugin/cookie-notice.1.2.48.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
