@@ -167,7 +167,7 @@
       "php -r \"copy('.env.example', '.env');\""
     ],
     "post-install-cmd": [
-      "php -r \"copy('.env.example', '.env');\"",
+      "cp -f .env.example .env",
       "vendor/bin/wpinstall.php"
     ]
   }
