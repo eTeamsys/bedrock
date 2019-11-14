@@ -50,7 +50,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.8.0",
+        "version": "5.8.7",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -66,7 +66,7 @@
       "type": "package",
       "package": {
         "name": "wpml/wpml-multilingual-cms",
-        "version": "4.3.1",
+        "version": "4.3.3",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -82,7 +82,7 @@
       "type": "package",
       "package": {
         "name": "wpml/wpml-string-translation",
-        "version": "3.0.1",
+        "version": "3.0.3",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -98,7 +98,7 @@
       "type": "package",
       "package": {
         "name": "wpml/wpml-media-translation",
-        "version": "2.5.4",
+        "version": "2.5.5",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
