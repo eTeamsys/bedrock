@@ -8,10 +8,10 @@
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
-            "version": "5.8.3",
+            "version": "5.8.7",
             "dist": {
                 "type": "zip",
-                "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t=5.8.3"
+                "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t=5.8.7"
             },
             "require": {
                 "composer/installers": "^1.4",
@@ -203,12 +203,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/maisonscompere_theme.git",
-                "reference": "bf863f0f179106d2f71a03ffeef0985a13956d23"
+                "reference": "cdbc9103e20a8ca82185e951667697d457f73cd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/maisonscompere_theme/zipball/bf863f0f179106d2f71a03ffeef0985a13956d23",
-                "reference": "bf863f0f179106d2f71a03ffeef0985a13956d23",
+                "url": "https://api.github.com/repos/eTeamsys/maisonscompere_theme/zipball/cdbc9103e20a8ca82185e951667697d457f73cd4",
+                "reference": "cdbc9103e20a8ca82185e951667697d457f73cd4",
                 "shasum": ""
             },
             "require": {
@@ -219,7 +219,7 @@
                 "source": "https://github.com/eTeamsys/maisonscompere_theme/tree/master",
                 "issues": "https://github.com/eTeamsys/maisonscompere_theme/issues"
             },
-            "time": "2019-11-05T14:37:11+00:00"
+            "time": "2019-11-18T08:55:10+00:00"
         },
         {
             "name": "eTeamsys/wp-library",
@@ -227,12 +227,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/wp-library.git",
-                "reference": "d47ac46bc3b11f8b04bd91ab5ecd504660f09453"
+                "reference": "d0fd94061be556b609e9ef3a5978b810d855e8d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/d47ac46bc3b11f8b04bd91ab5ecd504660f09453",
-                "reference": "d47ac46bc3b11f8b04bd91ab5ecd504660f09453",
+                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/d0fd94061be556b609e9ef3a5978b810d855e8d2",
+                "reference": "d0fd94061be556b609e9ef3a5978b810d855e8d2",
                 "shasum": ""
             },
             "bin": [
@@ -249,7 +249,7 @@
                 "source": "https://github.com/eTeamsys/wp-library/tree/master",
                 "issues": "https://github.com/eTeamsys/wp-library/issues"
             },
-            "time": "2019-11-11T08:45:27+00:00"
+            "time": "2019-11-11T15:59:28+00:00"
         },
         {
             "name": "ffraenz/private-composer-installer",
@@ -920,15 +920,15 @@
         },
         {
             "name": "wpackagist-plugin/amp",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/amp/",
-                "reference": "tags/1.4.0"
+                "reference": "tags/1.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amp.1.4.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/amp.1.4.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1029,15 +1029,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "5.1.4",
+            "version": "5.1.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/5.1.4"
+                "reference": "tags/5.1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1047,15 +1047,15 @@
         },
         {
             "name": "wpackagist-plugin/cookie-notice",
-            "version": "1.2.46",
+            "version": "1.2.48",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cookie-notice/",
-                "reference": "tags/1.2.46"
+                "reference": "tags/1.2.48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cookie-notice.1.2.46.zip"
+                "url": "https://downloads.wordpress.org/plugin/cookie-notice.1.2.48.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1195,10 +1195,10 @@
         },
         {
             "name": "wpml/wpml-media-translation",
-            "version": "2.5.4",
+            "version": "2.5.5",
             "dist": {
                 "type": "zip",
-                "url": "https://wpml.org/?download=7474&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=2.5.4"
+                "url": "https://wpml.org/?download=7474&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=2.5.5"
             },
             "require": {
                 "composer/installers": "^1.4",
@@ -1208,10 +1208,10 @@
         },
         {
             "name": "wpml/wpml-multilingual-cms",
-            "version": "4.3.1",
+            "version": "4.3.3",
             "dist": {
                 "type": "zip",
-                "url": "https://wpml.org/?download=6088&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=4.3.1"
+                "url": "https://wpml.org/?download=6088&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=4.3.3"
             },
             "require": {
                 "composer/installers": "^1.4",
@@ -1221,10 +1221,10 @@
         },
         {
             "name": "wpml/wpml-string-translation",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "dist": {
                 "type": "zip",
-                "url": "https://wpml.org/?download=6092&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=3.0.1"
+                "url": "https://wpml.org/?download=6092&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=3.0.3"
             },
             "require": {
                 "composer/installers": "^1.4",
