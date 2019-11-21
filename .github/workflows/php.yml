@@ -12,7 +12,8 @@ jobs:
 
     - name: Validate composer.json and composer.lock
       run: composer validate
-      
+   
+    - name: Install ssh key
     - uses: webfactory/ssh-agent@v0.1.1
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
