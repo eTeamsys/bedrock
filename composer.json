@@ -171,7 +171,7 @@
     ],
     "post-install-cmd": [
       "php -r \"copy('.env.example', '.env');\"",
-      "vendor/bin/wpinstall.php"
+      "sudo vendor/bin/wpinstall.php"
     ]
   }
 }
