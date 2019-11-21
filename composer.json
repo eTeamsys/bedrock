@@ -163,6 +163,9 @@
   },
   "scripts": {
     "remove-git-submodules" : "find . -type d -name .git | xargs rm -rf",
+    "pre-install-cmd": [
+        " php -r \"if(file_exists('.env') === false){copy('.env.example', '.env');}\""
+    ],
     "post-root-package-install": [
       "php -r \"copy('.env.example', '.env');\""
     ],
