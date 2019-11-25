@@ -205,12 +205,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/maisonscompere_theme.git",
-                "reference": "46170b0ced2e1ab77ec4cecfb83643f90a438902"
+                "reference": "12b3d2f6a40e4513ab0bd7726fff8f9cca311317"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/maisonscompere_theme/zipball/46170b0ced2e1ab77ec4cecfb83643f90a438902",
-                "reference": "46170b0ced2e1ab77ec4cecfb83643f90a438902",
+                "url": "https://api.github.com/repos/eTeamsys/maisonscompere_theme/zipball/12b3d2f6a40e4513ab0bd7726fff8f9cca311317",
+                "reference": "12b3d2f6a40e4513ab0bd7726fff8f9cca311317",
                 "shasum": ""
             },
             "require": {
@@ -218,10 +218,10 @@
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/eTeamsys/maisonscompere_theme/tree/hotfix",
+                "source": "https://github.com/eTeamsys/maisonscompere_theme/tree/integration",
                 "issues": "https://github.com/eTeamsys/maisonscompere_theme/issues"
             },
-            "time": "2019-11-21T10:38:51+00:00"
+            "time": "2019-11-25T07:35:19+00:00"
         },
         {
             "name": "eTeamsys/wp-library",
@@ -1151,15 +1151,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "4.4.2",
+            "version": "4.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/4.4.2"
+                "reference": "tags/4.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.4.4.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.4.5.1.zip",
                 "reference": null,
                 "shasum": null
             },
