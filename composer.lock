@@ -11,13 +11,9 @@
             "version": "5.8.7",
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
                 "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t=5.8.7",
                 "reference": null,
                 "shasum": null
-=======
-                "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t=5.8.7"
->>>>>>> 2605d724869bba1f923f3fdad0704267ca485add
             },
             "require": {
                 "composer/installers": "^1.4",
@@ -209,21 +205,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/maisonscompere_theme.git",
-<<<<<<< HEAD
                 "reference": "b210316b41488c027daf0efd6a6d800522a18dde"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/eTeamsys/maisonscompere_theme/zipball/b210316b41488c027daf0efd6a6d800522a18dde",
                 "reference": "b210316b41488c027daf0efd6a6d800522a18dde",
-=======
-                "reference": "cdbc9103e20a8ca82185e951667697d457f73cd4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/maisonscompere_theme/zipball/cdbc9103e20a8ca82185e951667697d457f73cd4",
-                "reference": "cdbc9103e20a8ca82185e951667697d457f73cd4",
->>>>>>> 2605d724869bba1f923f3fdad0704267ca485add
                 "shasum": ""
             },
             "require": {
@@ -234,11 +221,7 @@
                 "source": "https://github.com/eTeamsys/maisonscompere_theme/tree/integration",
                 "issues": "https://github.com/eTeamsys/maisonscompere_theme/issues"
             },
-<<<<<<< HEAD
             "time": "2019-12-02T09:07:43+00:00"
-=======
-            "time": "2019-11-18T08:55:10+00:00"
->>>>>>> 2605d724869bba1f923f3fdad0704267ca485add
         },
         {
             "name": "eTeamsys/wp-library",
@@ -246,21 +229,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/wp-library.git",
-<<<<<<< HEAD
                 "reference": "8c5dba5178881d4bff26fd99d6672da4721c024d"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/8c5dba5178881d4bff26fd99d6672da4721c024d",
                 "reference": "8c5dba5178881d4bff26fd99d6672da4721c024d",
-=======
-                "reference": "d0fd94061be556b609e9ef3a5978b810d855e8d2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/d0fd94061be556b609e9ef3a5978b810d855e8d2",
-                "reference": "d0fd94061be556b609e9ef3a5978b810d855e8d2",
->>>>>>> 2605d724869bba1f923f3fdad0704267ca485add
                 "shasum": ""
             },
             "bin": [
@@ -277,11 +251,7 @@
                 "source": "https://github.com/eTeamsys/wp-library/tree/master",
                 "issues": "https://github.com/eTeamsys/wp-library/issues"
             },
-<<<<<<< HEAD
             "time": "2019-11-21T09:59:28+00:00"
-=======
-            "time": "2019-11-11T15:59:28+00:00"
->>>>>>> 2605d724869bba1f923f3fdad0704267ca485add
         },
         {
             "name": "ffraenz/private-composer-installer",
@@ -971,13 +941,9 @@
             },
             "dist": {
                 "type": "zip",
-<<<<<<< HEAD
                 "url": "https://downloads.wordpress.org/plugin/amp.1.4.1.zip",
                 "reference": null,
                 "shasum": null
-=======
-                "url": "https://downloads.wordpress.org/plugin/amp.1.4.1.zip"
->>>>>>> 2605d724869bba1f923f3fdad0704267ca485add
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1275,7 +1241,9 @@
             "version": "2.5.5",
             "dist": {
                 "type": "zip",
-                "url": "https://wpml.org/?download=7474&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=2.5.5"
+                "url": "https://wpml.org/?download=7474&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=2.5.5",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "composer/installers": "^1.4",
@@ -1288,7 +1256,9 @@
             "version": "4.3.3",
             "dist": {
                 "type": "zip",
-                "url": "https://wpml.org/?download=6088&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=4.3.3"
+                "url": "https://wpml.org/?download=6088&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=4.3.3",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "composer/installers": "^1.4",
@@ -1301,7 +1271,9 @@
             "version": "3.0.3",
             "dist": {
                 "type": "zip",
-                "url": "https://wpml.org/?download=6092&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=3.0.3"
+                "url": "https://wpml.org/?download=6092&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=3.0.3",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "composer/installers": "^1.4",
