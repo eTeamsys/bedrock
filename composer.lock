@@ -205,12 +205,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/maisonscompere_theme.git",
-                "reference": "41a73828c7e16fe476437d2267d91fc32cd9dff5"
+                "reference": "5f5c1ef07ad0bf9d8b8b258c8cca69b7caf3b1a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/maisonscompere_theme/zipball/41a73828c7e16fe476437d2267d91fc32cd9dff5",
-                "reference": "41a73828c7e16fe476437d2267d91fc32cd9dff5",
+                "url": "https://api.github.com/repos/eTeamsys/maisonscompere_theme/zipball/5f5c1ef07ad0bf9d8b8b258c8cca69b7caf3b1a9",
+                "reference": "5f5c1ef07ad0bf9d8b8b258c8cca69b7caf3b1a9",
                 "shasum": ""
             },
             "require": {
@@ -221,7 +221,7 @@
                 "source": "https://github.com/eTeamsys/maisonscompere_theme/tree/integration",
                 "issues": "https://github.com/eTeamsys/maisonscompere_theme/issues"
             },
-            "time": "2019-12-05T13:24:42+00:00"
+            "time": "2019-12-05T13:42:28+00:00"
         },
         {
             "name": "eTeamsys/wp-library",
