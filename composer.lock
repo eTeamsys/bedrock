@@ -205,12 +205,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/maisonscompere_theme.git",
-                "reference": "8d1fe0bd9adfc777bd384de7d58209c3b29f83d1"
+                "reference": "879300df60ad134b737db90d9ffa7878e136ea9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/maisonscompere_theme/zipball/8d1fe0bd9adfc777bd384de7d58209c3b29f83d1",
-                "reference": "8d1fe0bd9adfc777bd384de7d58209c3b29f83d1",
+                "url": "https://api.github.com/repos/eTeamsys/maisonscompere_theme/zipball/879300df60ad134b737db90d9ffa7878e136ea9c",
+                "reference": "879300df60ad134b737db90d9ffa7878e136ea9c",
                 "shasum": ""
             },
             "require": {
@@ -221,7 +221,7 @@
                 "source": "https://github.com/eTeamsys/maisonscompere_theme/tree/integration",
                 "issues": "https://github.com/eTeamsys/maisonscompere_theme/issues"
             },
-            "time": "2019-12-09T08:52:04+00:00"
+            "time": "2019-12-09T09:05:36+00:00"
         },
         {
             "name": "eTeamsys/wp-library",
@@ -229,12 +229,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/wp-library.git",
-                "reference": "8c5dba5178881d4bff26fd99d6672da4721c024d"
+                "reference": "78c68330f9f19457a3395de93fff506d46bc3202"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/8c5dba5178881d4bff26fd99d6672da4721c024d",
-                "reference": "8c5dba5178881d4bff26fd99d6672da4721c024d",
+                "url": "https://api.github.com/repos/eTeamsys/wp-library/zipball/78c68330f9f19457a3395de93fff506d46bc3202",
+                "reference": "78c68330f9f19457a3395de93fff506d46bc3202",
                 "shasum": ""
             },
             "bin": [
@@ -251,7 +251,7 @@
                 "source": "https://github.com/eTeamsys/wp-library/tree/master",
                 "issues": "https://github.com/eTeamsys/wp-library/issues"
             },
-            "time": "2019-11-21T09:59:28+00:00"
+            "time": "2019-12-09T09:00:38+00:00"
         },
         {
             "name": "ffraenz/private-composer-installer",
