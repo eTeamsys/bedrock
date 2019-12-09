@@ -11,4 +11,4 @@ else
     echo "$UPLOAD already exists"
 fi
 
-rm -Rf /var/cache/mod_pagespeed/* && php -r "opcache_reset();" && service php7.2-fpm reload && rm -Rf app/cache/cache-enabler/*
+rm -Rf /var/cache/mod_pagespeed/* && php -r "opcache_reset();" && service php7.2-fpm reload && rm -Rf web/app/cache/cache-enabler/*
