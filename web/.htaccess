@@ -95,6 +95,8 @@
         RewriteRule ^27364\-investisseurs\-promoteurs/$ /29896\-promoteur/ [L,R=301]
         RewriteRule ^20186\-vente\-de\-maisons\-en\-belgique/$ /20187\-vente\-de\-maison\-en\-belgique/ [L,R=301]
         RewriteRule ^20188\-vente\-de\-maison\-en\-belgique/$ /20187\-vente\-de\-maison\-en\-belgique/ [L,R=301]
+        RewriteRule ^20194-nouvelle-construction-a-vendre/$ /53114-nouvelle-construction-a-vendre/ [L,R=301]
+        RewriteRule ^20190-nouvelles-constructions-a-vendre/$ /53114-nouvelle-construction-a-vendre/ [L,R=301]
 
         # end of SEO
 
