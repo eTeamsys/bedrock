@@ -128,6 +128,7 @@
     "wpackagist-plugin/breadcrumb-navxt": "*",
     "wpackagist-plugin/contact-form-7": "*",
     "wpackagist-plugin/cookie-notice": "*",
+    "wpackagist-plugin/custom-permalinks": "*",
     "wpackagist-plugin/flamingo": "*",
     "wpackagist-plugin/duplicate-post": "dev-trunk",
     "wpackagist-plugin/ewww-image-optimizer": "*",
