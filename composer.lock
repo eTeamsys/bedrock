@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa02cfe161b33c37ebd2300d7b61c131",
+    "content-hash": "9fa392f65a61f11c53e6088a91a1abea",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -566,16 +566,16 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "5.3.2",
+            "version": "5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "5.3.2"
+                "reference": "5.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2",
-                "reference": "5.3.2",
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2.3",
+                "reference": "5.2.3",
                 "shasum": null
             },
             "require": {
@@ -600,7 +600,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-12-18T22:19:57+00:00"
+            "time": "2019-09-04T22:41:56+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
@@ -1277,10 +1277,10 @@
         },
         {
             "name": "wpml/wpml-multilingual-cms",
-            "version": "4.3.6",
+            "version": "4.3.5",
             "dist": {
                 "type": "zip",
-                "url": "https://wpml.org/?download=6088&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=4.3.6",
+                "url": "https://wpml.org/?download=6088&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=4.3.5",
                 "reference": null,
                 "shasum": null
             },
@@ -1292,10 +1292,10 @@
         },
         {
             "name": "wpml/wpml-string-translation",
-            "version": "3.0.6",
+            "version": "3.0.5",
             "dist": {
                 "type": "zip",
-                "url": "https://wpml.org/?download=6092&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=3.0.6",
+                "url": "https://wpml.org/?download=6092&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=3.0.5",
                 "reference": null,
                 "shasum": null
             },
