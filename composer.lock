@@ -1,10 +1,14 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+<<<<<<< Updated upstream
     "content-hash": "9fa392f65a61f11c53e6088a91a1abea",
+=======
+    "content-hash": "e15acab86e198ca44a5cf45aee589307",
+>>>>>>> Stashed changes
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -201,7 +205,7 @@
         },
         {
             "name": "eTeamsys/maisonscompere_theme",
-            "version": "dev-integration",
+            "version": "dev-release",
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/maisonscompere_theme.git",
@@ -497,9 +501,9 @@
             "authors": [
                 {
                     "name": "Oscar Otero",
+                    "role": "Developer",
                     "email": "oom@oscarotero.com",
-                    "homepage": "http://oscarotero.com",
-                    "role": "Developer"
+                    "homepage": "http://oscarotero.com"
                 }
             ],
             "description": "Simple library to consume environment variables",
@@ -566,16 +570,16 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "5.2.3",
+            "version": "5.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "5.2.3"
+                "reference": "5.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2.3",
-                "reference": "5.2.3",
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2",
+                "reference": "5.3.2",
                 "shasum": null
             },
             "require": {
@@ -600,7 +604,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-09-04T22:41:56+00:00"
+            "time": "2019-12-18T22:19:57+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
@@ -1126,7 +1130,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicate-post.zip?timestamp=1573079616",
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.zip?timestamp=1563441519",
                 "reference": null,
                 "shasum": null
             },
@@ -1135,10 +1139,11 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/duplicate-post/",
-            "time": "2019-11-06T22:33:36+00:00"
+            "time": "2019-07-18T09:18:39+00:00"
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
+<<<<<<< Updated upstream
             "version": "5.2.0",
             "source": {
                 "type": "svn",
@@ -1148,6 +1153,17 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.2.0.zip",
+=======
+            "version": "5.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
+                "reference": "tags/5.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.2.1.zip",
+>>>>>>> Stashed changes
                 "reference": null,
                 "shasum": null
             },
@@ -1228,7 +1244,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.zip?timestamp=1573640817",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.zip?timestamp=1572335174",
                 "reference": null,
                 "shasum": null
             },
@@ -1237,7 +1253,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/",
-            "time": "2019-11-13T10:26:57+00:00"
+            "time": "2019-10-29T07:46:14+00:00"
         },
         {
             "name": "wpackagist-plugin/wp-fastest-cache",
@@ -1249,7 +1265,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-fastest-cache.zip?timestamp=1573048111",
+                "url": "https://downloads.wordpress.org/plugin/wp-fastest-cache.zip?timestamp=1572215115",
                 "reference": null,
                 "shasum": null
             },
@@ -1258,7 +1274,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-fastest-cache/",
-            "time": "2019-11-06T13:48:31+00:00"
+            "time": "2019-10-27T22:25:15+00:00"
         },
         {
             "name": "wpml/wpml-media-translation",
@@ -1293,9 +1309,30 @@
         {
             "name": "wpml/wpml-string-translation",
             "version": "3.0.5",
+<<<<<<< Updated upstream
             "dist": {
                 "type": "zip",
                 "url": "https://wpml.org/?download=6092&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=3.0.5",
+=======
+            "dist": {
+                "type": "zip",
+                "url": "https://wpml.org/?download=6092&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=3.0.5",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.4",
+                "ffraenz/private-composer-installer": "^2.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "wpml/wpml-translation-management",
+            "version": "2.9.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://wpml.org/?download=6094&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version=2.9.3",
+>>>>>>> Stashed changes
                 "reference": null,
                 "shasum": null
             },

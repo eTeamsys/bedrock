@@ -4,11 +4,11 @@ clone this repository (if it isn't already done)
 
 git clone git@github.com:eTeamsys/bedrock.git
 
-use Branch customer/preprod/maisonscompere
-git clone origin customer/preprod/maisonscompere
+use Branch customer/prod/maisonscompere
+git clone origin customer/prod/maisonscompere
 
 you have to push your theme modification in master branch 
-https://github.com/eTeamsys/maisonscompere_theme/tree/integration
+https://github.com/eTeamsys/maisonscompere_theme/tree/master
 
 make sure all plugin version (ACF, WPML) in composer.json
 

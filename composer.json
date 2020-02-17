@@ -109,6 +109,22 @@
           "ffraenz/private-composer-installer": "^2.0"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wpml/wpml-translation-management",
+        "version": "2.9.3",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://wpml.org/?download=6094&user_id={%PLUGIN_WPML_USER_ID}&subscription_key={%PLUGIN_WPML_SUBSCRIPTION_KEY}&version={%version}"
+        },
+        "require": {
+          "composer/installers": "^1.4",
+          "ffraenz/private-composer-installer": "^2.0"
+        }
+      }
     }
   ],
   "require": {
@@ -116,7 +132,7 @@
     "composer/installers": "^1.7",
     "vlucas/phpdotenv": "^3.4.0",
     "oscarotero/env": "^1.2.0",
-    "roots/wordpress": "5.2.3",
+    "roots/wordpress": "5.3.2",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "eteamsys/wp-library": "dev-master",
@@ -141,9 +157,10 @@
     "wpackagist-plugin/cache-enabler": "*",
     "wpackagist-plugin/cdn-enabler": "*",
     "eteamsys/maisonscompere_theme": "dev-integration",
-    "wpml/wpml-multilingual-cms": "4.3.5",
-    "wpml/wpml-string-translation": "3.0.5",
-    "wpml/wpml-media-translation": "*"
+    "wpml/wpml-multilingual-cms": "*",
+    "wpml/wpml-string-translation": "*",
+    "wpml/wpml-media-translation": "*",
+    "wpml/wpml-translation-management": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
@@ -168,7 +185,7 @@
       "php -r \"copy('.env.example', '.env');\""
     ],
     "post-install-cmd": [
-      "cp -f .env.example .env",
+      "php -r \"copy('.env.example', '.env');\"",
       "vendor/bin/wpinstall.php"
     ]
   }

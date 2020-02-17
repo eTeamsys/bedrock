@@ -1,8 +1,43 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
         RewriteEngine On
-        
-         #SEO pages redirect
+
+        # Disable AMP on multistep form
+        # Check if AMP enabled on page, IF enabled THAN disable ;)
+        # FR
+        RewriteCond %{REQUEST_URI} ^/catalogue-gratuit-maisons-cle-sur-porte/$
+        RewriteCond %{QUERY_STRING} ^(&?amp)$
+        RewriteRule ^(.*)$ /catalogue-gratuit-maisons-cle-sur-porte/ [QSD,L]
+        # NL
+        RewriteCond %{REQUEST_URI} ^/gratis-catalogus-van-sleutel-op-de-deur-woning/$
+        RewriteCond %{QUERY_STRING} ^(&?amp)$
+        RewriteRule ^(.*)$ /gratis-catalogus-van-sleutel-op-de-deur-woning/ [QSD,L]
+
+        # 301 --- http://www.woningencompere.be/43125/persoonlijke-levenssfeer => https://www.woningencompere.be/
+        RewriteRule ^43125/persoonlijke\-levenssfeer$ /? [L,R=301]
+
+        # 301 --- http://www.woningencompere.be/Startpagina => https://www.woningencompere.be/
+        RewriteRule ^Startpagina$ /? [L,R=301]
+
+        #RewriteCond %{HTTP:X-Forwarded-Proto} =http
+        #RewriteRule . https://%{HTTP:Host}%{REQUEST_URI} [L,R=permanent]
+
+        #old url format to new format
+        # houses listing page redirection
+
+        RewriteRule ^7/liste-(.*)$ liste-des-modeles-de-maisons-cle-sur-porte-avec-plans-classes-par-prix/ [R=301,L]
+        RewriteRule ^7/lijst-(.*)$ lijst-van-sleutel-op-de-deur-modelwoningen-met-plan-gerangschikt-op-prijs/ [R=301,L]
+
+        #home models url format FR
+        RewriteRule ^([0-9]+)\/maison-cle-sur-porte\/mc([0-9]+)$ maisons/$1-maison-cle-sur-porte-mc$2/ [R=301,L]
+
+        #home models url format NL
+        RewriteRule ^([0-9]+)\/sleutel-op-de-deur\/wc([0-9]+)$ houses/$1-sleutel-op-de-deur-wc$2/ [R=301,L]
+
+        #articles url format
+        RewriteRule ^([0-9]+)\/(.*)$ $1-$2/ [R=301,L]
+
+        #SEO pages redirect
         
         RewriteRule ^25908\-cle\-sur\-porte/$ /52798\-cle\-sur\-porte/ [L,R=301]
         RewriteRule ^25909\-cle\-sur\-porte/$ /52798\-cle\-sur\-porte/ [L,R=301]
@@ -99,41 +134,6 @@
         RewriteRule ^20190-nouvelles-constructions-a-vendre/$ /53114-nouvelle-construction-a-vendre/ [L,R=301]
 
         # end of SEO
-
-        # Disable AMP on multistep form
-        # Check if AMP enabled on page, IF enabled THAN disable ;)
-        # FR
-        RewriteCond %{REQUEST_URI} ^/catalogue-gratuit-maisons-cle-sur-porte/$
-        RewriteCond %{QUERY_STRING} ^(&?amp)$
-        RewriteRule ^(.*)$ /catalogue-gratuit-maisons-cle-sur-porte/ [QSD,L]
-        # NL
-        RewriteCond %{REQUEST_URI} ^/gratis-catalogus-van-sleutel-op-de-deur-woning/$
-        RewriteCond %{QUERY_STRING} ^(&?amp)$
-        RewriteRule ^(.*)$ /gratis-catalogus-van-sleutel-op-de-deur-woning/ [QSD,L]
-
-        # 301 --- http://www.woningencompere.be/43125/persoonlijke-levenssfeer => https://www.woningencompere.be/
-        RewriteRule ^43125/persoonlijke\-levenssfeer$ /? [L,R=301]
-
-        # 301 --- http://www.woningencompere.be/Startpagina => https://www.woningencompere.be/
-        RewriteRule ^Startpagina$ /? [L,R=301]
-
-        #RewriteCond %{HTTP:X-Forwarded-Proto} =http
-        #RewriteRule . https://%{HTTP:Host}%{REQUEST_URI} [L,R=permanent]
-
-        #old url format to new format
-        # houses listing page redirection
-
-        RewriteRule ^7/liste-(.*)$ liste-des-modeles-de-maisons-cle-sur-porte-avec-plans-classes-par-prix/ [R=301,L]
-        RewriteRule ^7/lijst-(.*)$ lijst-van-sleutel-op-de-deur-modelwoningen-met-plan-gerangschikt-op-prijs/ [R=301,L]
-
-        #home models url format FR
-        RewriteRule ^([0-9]+)\/maison-cle-sur-porte\/mc([0-9]+)$ maisons/$1-maison-cle-sur-porte-mc$2/ [R=301,L]
-
-        #home models url format NL
-        RewriteRule ^([0-9]+)\/sleutel-op-de-deur\/wc([0-9]+)$ houses/$1-sleutel-op-de-deur-wc$2/ [R=301,L]
-
-        #articles url format
-        RewriteRule ^([0-9]+)\/(.*)$ $1-$2/ [R=301,L]
 
         RewriteBase /
         RewriteRule ^index\.php$ - [L]
