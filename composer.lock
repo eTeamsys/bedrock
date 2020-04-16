@@ -262,12 +262,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/hubspot-sales-allocation.git",
-                "reference": "26cc1755cae80379c64ea3f64f24fdbb6d512796"
+                "reference": "f74ff93a7d0e97554b5daf10af160f88cd5f32a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/hubspot-sales-allocation/zipball/26cc1755cae80379c64ea3f64f24fdbb6d512796",
-                "reference": "26cc1755cae80379c64ea3f64f24fdbb6d512796",
+                "url": "https://api.github.com/repos/eTeamsys/hubspot-sales-allocation/zipball/f74ff93a7d0e97554b5daf10af160f88cd5f32a0",
+                "reference": "f74ff93a7d0e97554b5daf10af160f88cd5f32a0",
                 "shasum": ""
             },
             "require": {
@@ -294,7 +294,7 @@
                 "source": "https://github.com/eTeamsys/hubspot-sales-allocation/tree/master",
                 "issues": "https://github.com/eTeamsys/hubspot-sales-allocation/issues"
             },
-            "time": "2020-04-16T09:33:29+00:00"
+            "time": "2020-04-16T14:55:18+00:00"
         },
         {
             "name": "ffraenz/private-composer-installer",
@@ -662,12 +662,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NathETS/lib-hubspot.git",
-                "reference": "93ef5c7a20b0f95f92ce876f4de84f1dc484233a"
+                "reference": "41f0695dc10aa711860334a666f4f00553d6c156"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NathETS/lib-hubspot/zipball/93ef5c7a20b0f95f92ce876f4de84f1dc484233a",
-                "reference": "93ef5c7a20b0f95f92ce876f4de84f1dc484233a",
+                "url": "https://api.github.com/repos/NathETS/lib-hubspot/zipball/41f0695dc10aa711860334a666f4f00553d6c156",
+                "reference": "41f0695dc10aa711860334a666f4f00553d6c156",
                 "shasum": ""
             },
             "require": {
@@ -688,7 +688,7 @@
                 "MIT"
             ],
             "description": "Library Hubspot",
-            "time": "2020-04-15T07:10:52+00:00"
+            "time": "2020-04-16T14:35:24+00:00"
         },
         {
             "name": "nlib/lib-log",
@@ -726,12 +726,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NathETS/lib-orm.git",
-                "reference": "8df997564bf78d9ec3b0a0df10d24e35e011e3bc"
+                "reference": "fa560ce27a233771331fdf8f9bdaacb37125c12d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NathETS/lib-orm/zipball/8df997564bf78d9ec3b0a0df10d24e35e011e3bc",
-                "reference": "8df997564bf78d9ec3b0a0df10d24e35e011e3bc",
+                "url": "https://api.github.com/repos/NathETS/lib-orm/zipball/fa560ce27a233771331fdf8f9bdaacb37125c12d",
+                "reference": "fa560ce27a233771331fdf8f9bdaacb37125c12d",
                 "shasum": ""
             },
             "require": {
@@ -751,7 +751,7 @@
                 "MIT"
             ],
             "description": "Library Orm",
-            "time": "2020-04-08T09:18:01+00:00"
+            "time": "2020-04-16T13:57:01+00:00"
         },
         {
             "name": "nlib/lib-path",
@@ -759,12 +759,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NathETS/lib-path.git",
-                "reference": "f29106dc4abf20739fc99926f8d19131d6b24eb3"
+                "reference": "3f997a733cfc4405891bed93974ab771a12b46fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NathETS/lib-path/zipball/f29106dc4abf20739fc99926f8d19131d6b24eb3",
-                "reference": "f29106dc4abf20739fc99926f8d19131d6b24eb3",
+                "url": "https://api.github.com/repos/NathETS/lib-path/zipball/3f997a733cfc4405891bed93974ab771a12b46fb",
+                "reference": "3f997a733cfc4405891bed93974ab771a12b46fb",
                 "shasum": ""
             },
             "require": {
@@ -781,7 +781,7 @@
                 "MIT"
             ],
             "description": "Library Path",
-            "time": "2020-04-07T14:27:49+00:00"
+            "time": "2020-04-16T12:31:04+00:00"
         },
         {
             "name": "nlib/lib-tool",
