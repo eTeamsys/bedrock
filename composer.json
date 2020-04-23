@@ -133,6 +133,10 @@
           "ffraenz/private-composer-installer": "^2.0"
         }
       }
+    },    
+    {
+      "type": "vcs",
+      "url" : "git@github.com:eTeamsys/dflip.git"
     }
   ],
   "require": {
@@ -169,7 +173,8 @@
     "wpml/wpml-string-translation": "*",
     "wpml/wpml-media-translation": "*",
     "wpml/wpml-translation-management": "*",
-    "eteamsys/hubspot-sales-allocation" : "dev-master"
+    "eteamsys/hubspot-sales-allocation" : "dev-master",
+    "eTeamsys/dflip": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
