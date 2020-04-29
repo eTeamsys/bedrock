@@ -47,14 +47,6 @@
        "url" : "git@github.com:eTeamsys/maisonscompere_theme.git"
     },
     {
-      "type": "vcs",
-      "url" : "git@github.com:eTeamsys/wp-hubspot.git"
-    },
-    {
-      "type": "vcs",
-      "url" : "git@github.com:eTeamsys/hubspot-sales-allocation.git"
-    },
-    {
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -173,7 +165,6 @@
     "wpml/wpml-string-translation": "*",
     "wpml/wpml-media-translation": "*",
     "wpml/wpml-translation-management": "*",
-    "eteamsys/hubspot-sales-allocation" : "dev-master",
     "eTeamsys/dflip": "dev-master"
   },
   "require-dev": {
