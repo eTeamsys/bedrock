@@ -113,6 +113,18 @@
     {
       "type": "vcs",
       "url" : "git@github.com:eTeamsys/dflip.git"
+    },
+    {
+      "type": "vcs",
+      "url" : "git@github.com:eTeamsys/wpai-acf-add-on.git"
+    },
+    {
+      "type": "vcs",
+      "url" : "git@github.com:eTeamsys/wp-all-import-pro.git"
+    },
+    {
+      "type": "vcs",
+      "url" : "git@github.com:eTeamsys/wp-all-export-pro.git"
     }
   ],
   "require": {
@@ -147,7 +159,10 @@
     "wpml/wpml-multilingual-cms": "*",
     "wpml/wpml-string-translation": "*",
     "wpml/wpml-media-translation": "*",
-    "eTeamsys/dflip": "dev-master"
+    "eteamsys/dflip": "dev-master",
+    "eteamsys/wpai-acf-add-on": "dev-master",
+    "eteamsys/wp-all-import-pro": "dev-master",
+    "eteamsys/wp-all-export-pro": "dev-master" 
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
