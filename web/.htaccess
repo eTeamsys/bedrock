@@ -2,6 +2,10 @@
 <IfModule mod_rewrite.c>
         RewriteEngine On
 
+
+        RewriteCond %{HTTP_HOST} ^woningencompere.be [NC]
+        RewriteRule ^(.*)$ https://www.woningencompere.be/$1 [L,R=301]
+
         # Disable AMP on multistep form
         # Check if AMP enabled on page, IF enabled THAN disable ;)
         # FR
