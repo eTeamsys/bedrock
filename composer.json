@@ -165,6 +165,7 @@
     "wpackagist-plugin/duplicate-post": "dev-trunk",
     "wpackagist-plugin/ewww-image-optimizer": "*",
     "wpackagist-plugin/redirection": "*",
+    "wpackagist-plugin/regenerate-thumbnails": "*",
     "wpackagist-plugin/simple-share-buttons-adder": "dev-trunk",
     "wpackagist-plugin/wordpress-seo": "dev-trunk",
     "wpackagist-plugin/wp-fastest-cache": "dev-trunk",
