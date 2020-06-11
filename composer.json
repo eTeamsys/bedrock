@@ -142,6 +142,10 @@
     {
       "type": "vcs",
       "url" : "git@github.com:eTeamsys/wp-all-export-pro.git"
+    },
+    {
+      "type": "vcs",
+      "url" : "git@github.com:eTeamsys/hubspot-sales-allocation.git"
     }
   ],
   "require": {
