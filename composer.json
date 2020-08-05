@@ -188,7 +188,7 @@
     "eteamsys/dflip": "dev-master",
     "eteamsys/wpai-acf-add-on": "dev-master",
     "eteamsys/wp-all-import-pro": "dev-master",
-    "eteamsys/wp-all-export-pro": "dev-master"  
+    "eteamsys/wp-all-export-pro": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
