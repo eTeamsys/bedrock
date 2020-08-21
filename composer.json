@@ -59,7 +59,7 @@
         "require": {
           "composer/installers": "^1.4",
           "ffraenz/private-composer-installer": "^2.0"
-          
+
         }
       }
     },
@@ -126,7 +126,7 @@
           "ffraenz/private-composer-installer": "^2.0"
         }
       }
-    },    
+    },
     {
       "type": "vcs",
       "url" : "git@github.com:eTeamsys/dflip.git"
@@ -168,7 +168,7 @@
     "wpackagist-plugin/custom-permalinks": "*",
     "wpackagist-plugin/flamingo": "*",
     "wpackagist-plugin/duplicate-post": "*",
-    "wpackagist-plugin/ewww-image-optimizer": "*",    
+    "wpackagist-plugin/ewww-image-optimizer": "*",
     "wpackagist-plugin/wp-migrate-db": "^1.0.15",
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/regenerate-thumbnails": "*",
