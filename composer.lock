@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0848919c0fabf78e33dae36ee1020a4f",
+    "content-hash": "17d76f33a2b64d4524e5613241ffc68f",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -21,16 +21,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.2.7",
+            "version": "1.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "95c63ab2117a72f48f5a55da9740a3273d45b7fd"
+                "reference": "8a7ecad675253e4654ea05505233285377405215"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/95c63ab2117a72f48f5a55da9740a3273d45b7fd",
-                "reference": "95c63ab2117a72f48f5a55da9740a3273d45b7fd",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/8a7ecad675253e4654ea05505233285377405215",
+                "reference": "8a7ecad675253e4654ea05505233285377405215",
                 "shasum": ""
             },
             "require": {
@@ -73,7 +73,21 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2020-04-08T08:27:21+00:00"
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-08-23T12:54:47+00:00"
         },
         {
             "name": "composer/installers",
@@ -200,7 +214,38 @@
                 "zend",
                 "zikula"
             ],
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-04-07T06:57:05+00:00"
+        },
+        {
+            "name": "eTeamsys/dflip",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:eTeamsys/dflip.git",
+                "reference": "3745a452b698ff187500b6a5a3d6b16ceaf999d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eTeamsys/dflip/zipball/3745a452b698ff187500b6a5a3d6b16ceaf999d1",
+                "reference": "3745a452b698ff187500b6a5a3d6b16ceaf999d1",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/eTeamsys/dflip/tree/master",
+                "issues": "https://github.com/eTeamsys/dflip/issues"
+            },
+            "time": "2020-04-23T07:07:51+00:00"
         },
         {
             "name": "eTeamsys/maisonscompere_theme",
@@ -208,12 +253,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/maisonscompere_theme.git",
-                "reference": "1df052d72e9151af07e48294297261264473c60a"
+                "reference": "f6599b1b2adcc8ee22cf120d000beb9038ed4a25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/maisonscompere_theme/zipball/1df052d72e9151af07e48294297261264473c60a",
-                "reference": "1df052d72e9151af07e48294297261264473c60a",
+                "url": "https://api.github.com/repos/eTeamsys/maisonscompere_theme/zipball/f6599b1b2adcc8ee22cf120d000beb9038ed4a25",
+                "reference": "f6599b1b2adcc8ee22cf120d000beb9038ed4a25",
                 "shasum": ""
             },
             "require": {
@@ -224,7 +269,49 @@
                 "source": "https://github.com/eTeamsys/maisonscompere_theme/tree/integration",
                 "issues": "https://github.com/eTeamsys/maisonscompere_theme/issues"
             },
-            "time": "2020-04-10T13:06:28+00:00"
+            "time": "2020-08-05T09:13:08+00:00"
+        },
+        {
+            "name": "eTeamsys/wp-all-export-pro",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:eTeamsys/wp-all-export-pro.git",
+                "reference": "f068d2af7672f034770353e2fff7f45e1b1389b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eTeamsys/wp-all-export-pro/zipball/f068d2af7672f034770353e2fff7f45e1b1389b3",
+                "reference": "f068d2af7672f034770353e2fff7f45e1b1389b3",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/eTeamsys/wp-all-export-pro/tree/master",
+                "issues": "https://github.com/eTeamsys/wp-all-export-pro/issues"
+            },
+            "time": "2020-05-14T09:49:20+00:00"
+        },
+        {
+            "name": "eTeamsys/wp-all-import-pro",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:eTeamsys/wp-all-import-pro.git",
+                "reference": "006e20e356ac2bedf5edf4d5c985bb86996fcdce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eTeamsys/wp-all-import-pro/zipball/006e20e356ac2bedf5edf4d5c985bb86996fcdce",
+                "reference": "006e20e356ac2bedf5edf4d5c985bb86996fcdce",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/eTeamsys/wp-all-import-pro/tree/master",
+                "issues": "https://github.com/eTeamsys/wp-all-import-pro/issues"
+            },
+            "time": "2020-05-14T09:45:10+00:00"
         },
         {
             "name": "eTeamsys/wp-library",
@@ -257,17 +344,38 @@
             "time": "2019-12-09T09:00:38+00:00"
         },
         {
+            "name": "eTeamsys/wpai-acf-add-on",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:eTeamsys/wpai-acf-add-on.git",
+                "reference": "d0db3fdbb09711b881776941de39a8156ac0f43c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eTeamsys/wpai-acf-add-on/zipball/d0db3fdbb09711b881776941de39a8156ac0f43c",
+                "reference": "d0db3fdbb09711b881776941de39a8156ac0f43c",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/eTeamsys/wpai-acf-add-on/tree/master",
+                "issues": "https://github.com/eTeamsys/wpai-acf-add-on/issues"
+            },
+            "time": "2020-05-14T09:35:09+00:00"
+        },
+        {
             "name": "eteamsys/hubspot-sales-allocation",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:eTeamsys/hubspot-sales-allocation.git",
-                "reference": "f74ff93a7d0e97554b5daf10af160f88cd5f32a0"
+                "reference": "3e02b3c526e3c77fa2a8c522688559644f5d0a69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eTeamsys/hubspot-sales-allocation/zipball/f74ff93a7d0e97554b5daf10af160f88cd5f32a0",
-                "reference": "f74ff93a7d0e97554b5daf10af160f88cd5f32a0",
+                "url": "https://api.github.com/repos/eTeamsys/hubspot-sales-allocation/zipball/3e02b3c526e3c77fa2a8c522688559644f5d0a69",
+                "reference": "3e02b3c526e3c77fa2a8c522688559644f5d0a69",
                 "shasum": ""
             },
             "require": {
@@ -294,7 +402,7 @@
                 "source": "https://github.com/eTeamsys/hubspot-sales-allocation/tree/master",
                 "issues": "https://github.com/eTeamsys/hubspot-sales-allocation/issues"
             },
-            "time": "2020-04-16T14:55:18+00:00"
+            "time": "2020-08-10T09:27:03+00:00"
         },
         {
             "name": "ffraenz/private-composer-installer",
@@ -405,29 +513,29 @@
         },
         {
             "name": "maxmind-db/reader",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maxmind/MaxMind-DB-Reader-php.git",
-                "reference": "febd4920bf17c1da84cef58e56a8227dfb37fbe4"
+                "reference": "942553da239f12051275f9c666538b5dd09e2908"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maxmind/MaxMind-DB-Reader-php/zipball/febd4920bf17c1da84cef58e56a8227dfb37fbe4",
-                "reference": "febd4920bf17c1da84cef58e56a8227dfb37fbe4",
+                "url": "https://api.github.com/repos/maxmind/MaxMind-DB-Reader-php/zipball/942553da239f12051275f9c666538b5dd09e2908",
+                "reference": "942553da239f12051275f9c666538b5dd09e2908",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6"
+                "php": ">=7.2"
             },
             "conflict": {
-                "ext-maxminddb": "<1.6.0,>=2.0.0"
+                "ext-maxminddb": "<1.7.0,>=2.0.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "2.*",
                 "php-coveralls/php-coveralls": "^2.1",
-                "phpunit/phpcov": "^3.0",
-                "phpunit/phpunit": "5.*",
+                "phpunit/phpcov": ">=6.0.0",
+                "phpunit/phpunit": ">=8.0.0,<10.0.0",
                 "squizlabs/php_codesniffer": "3.*"
             },
             "suggest": {
@@ -461,20 +569,20 @@
                 "geolocation",
                 "maxmind"
             ],
-            "time": "2019-12-19T22:59:03+00:00"
+            "time": "2020-08-07T22:10:05+00:00"
         },
         {
             "name": "maxmind/web-service-common",
-            "version": "v0.6.0",
+            "version": "v0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maxmind/web-service-common-php.git",
-                "reference": "40c928bb0194c45088b369a17f9baef9c3fc7460"
+                "reference": "74c996c218ada5c639c8c2f076756e059f5552fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maxmind/web-service-common-php/zipball/40c928bb0194c45088b369a17f9baef9c3fc7460",
-                "reference": "40c928bb0194c45088b369a17f9baef9c3fc7460",
+                "url": "https://api.github.com/repos/maxmind/web-service-common-php/zipball/74c996c218ada5c639c8c2f076756e059f5552fc",
+                "reference": "74c996c218ada5c639c8c2f076756e059f5552fc",
                 "shasum": ""
             },
             "require": {
@@ -507,24 +615,24 @@
             ],
             "description": "Internal MaxMind Web Service API",
             "homepage": "https://github.com/maxmind/web-service-common-php",
-            "time": "2019-12-12T15:56:05+00:00"
+            "time": "2020-05-06T14:07:26+00:00"
         },
         {
             "name": "monolog/monolog",
-            "version": "2.0.2",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "c861fcba2ca29404dc9e617eedd9eff4616986b8"
+                "reference": "f9eee5cec93dfb313a38b6b288741e84e53f02d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/c861fcba2ca29404dc9e617eedd9eff4616986b8",
-                "reference": "c861fcba2ca29404dc9e617eedd9eff4616986b8",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f9eee5cec93dfb313a38b6b288741e84e53f02d5",
+                "reference": "f9eee5cec93dfb313a38b6b288741e84e53f02d5",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2",
+                "php": ">=7.2",
                 "psr/log": "^1.0.1"
             },
             "provide": {
@@ -535,11 +643,11 @@
                 "doctrine/couchdb": "~1.0@dev",
                 "elasticsearch/elasticsearch": "^6.0",
                 "graylog2/gelf-php": "^1.4.2",
-                "jakub-onderka/php-parallel-lint": "^0.9",
                 "php-amqplib/php-amqplib": "~2.4",
                 "php-console/php-console": "^3.1.3",
+                "php-parallel-lint/php-parallel-lint": "^1.0",
                 "phpspec/prophecy": "^1.6.1",
-                "phpunit/phpunit": "^8.3",
+                "phpunit/phpunit": "^8.5",
                 "predis/predis": "^1.1",
                 "rollbar/rollbar": "^1.3",
                 "ruflin/elastica": ">=0.90 <3.0",
@@ -588,7 +696,17 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2019-12-20T14:22:59+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/Seldaek",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/monolog/monolog",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-23T08:41:23+00:00"
         },
         {
             "name": "nlib/lib-curl",
@@ -596,15 +714,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NathETS/lib-curl.git",
-                "reference": "ce43ce7fdeee87cb5333be84b96ba196cdfd69b2"
+                "reference": "218e919acfffc0425492f55bfb7ea30e98dbea8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NathETS/lib-curl/zipball/ce43ce7fdeee87cb5333be84b96ba196cdfd69b2",
-                "reference": "ce43ce7fdeee87cb5333be84b96ba196cdfd69b2",
+                "url": "https://api.github.com/repos/NathETS/lib-curl/zipball/218e919acfffc0425492f55bfb7ea30e98dbea8d",
+                "reference": "218e919acfffc0425492f55bfb7ea30e98dbea8d",
                 "shasum": ""
             },
             "require": {
+                "nlib/lib-instance": "dev-master@dev",
                 "nlib/lib-log": "dev-master@dev",
                 "nlib/lib-path": "dev-master@dev",
                 "nlib/lib-tool": "dev-master@dev",
@@ -621,7 +740,7 @@
                 "MIT"
             ],
             "description": "Library cURL",
-            "time": "2020-04-15T07:12:33+00:00"
+            "time": "2020-07-15T14:31:03+00:00"
         },
         {
             "name": "nlib/lib-geoloc",
@@ -629,16 +748,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NathETS/lib-geoloc.git",
-                "reference": "d786bd6d50dcc206c5ec11091caa117401e75bdb"
+                "reference": "ae77e333af544f2d883073644a71035e107ed5e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NathETS/lib-geoloc/zipball/d786bd6d50dcc206c5ec11091caa117401e75bdb",
-                "reference": "d786bd6d50dcc206c5ec11091caa117401e75bdb",
+                "url": "https://api.github.com/repos/NathETS/lib-geoloc/zipball/ae77e333af544f2d883073644a71035e107ed5e5",
+                "reference": "ae77e333af544f2d883073644a71035e107ed5e5",
                 "shasum": ""
             },
             "require": {
                 "nlib/lib-curl": "dev-master@dev",
+                "nlib/lib-instance": "dev-master@dev",
                 "nlib/lib-log": "dev-master@dev",
                 "nlib/lib-orm": "dev-master@dev",
                 "php": "^7.1.3"
@@ -654,7 +774,7 @@
                 "MIT"
             ],
             "description": "Library Geoloc",
-            "time": "2020-03-11T14:07:05+00:00"
+            "time": "2020-07-15T14:31:47+00:00"
         },
         {
             "name": "nlib/lib-hubspot",
@@ -662,19 +782,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NathETS/lib-hubspot.git",
-                "reference": "41f0695dc10aa711860334a666f4f00553d6c156"
+                "reference": "0f1f06df01bd3f6fb79cbf3676cbb065591b2c57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NathETS/lib-hubspot/zipball/41f0695dc10aa711860334a666f4f00553d6c156",
-                "reference": "41f0695dc10aa711860334a666f4f00553d6c156",
+                "url": "https://api.github.com/repos/NathETS/lib-hubspot/zipball/0f1f06df01bd3f6fb79cbf3676cbb065591b2c57",
+                "reference": "0f1f06df01bd3f6fb79cbf3676cbb065591b2c57",
                 "shasum": ""
             },
             "require": {
                 "nlib/lib-curl": "dev-master@dev",
+                "nlib/lib-instance": "dev-master@dev",
                 "nlib/lib-log": "dev-master@dev",
                 "nlib/lib-path": "dev-master@dev",
                 "nlib/lib-tool": "dev-master@dev",
+                "nlib/lib-yaml": "dev-master@dev",
                 "php": "^7.1.3"
             },
             "type": "library",
@@ -688,7 +810,37 @@
                 "MIT"
             ],
             "description": "Library Hubspot",
-            "time": "2020-04-16T14:35:24+00:00"
+            "time": "2020-07-15T14:32:02+00:00"
+        },
+        {
+            "name": "nlib/lib-instance",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/NathETS/lib-instance.git",
+                "reference": "38f19b2b643efa6fc23cb82c8af331b0a200f860"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NathETS/lib-instance/zipball/38f19b2b643efa6fc23cb82c8af331b0a200f860",
+                "reference": "38f19b2b643efa6fc23cb82c8af331b0a200f860",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "nlib\\Instance\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Library Instance",
+            "time": "2020-07-15T12:23:44+00:00"
         },
         {
             "name": "nlib/lib-log",
@@ -696,15 +848,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NathETS/lib-log.git",
-                "reference": "3ccc16c39d12f693eb1de67b6c841ae4eae34914"
+                "reference": "7450e7535470acad113eff6331dd1106d39a4207"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NathETS/lib-log/zipball/3ccc16c39d12f693eb1de67b6c841ae4eae34914",
-                "reference": "3ccc16c39d12f693eb1de67b6c841ae4eae34914",
+                "url": "https://api.github.com/repos/NathETS/lib-log/zipball/7450e7535470acad113eff6331dd1106d39a4207",
+                "reference": "7450e7535470acad113eff6331dd1106d39a4207",
                 "shasum": ""
             },
             "require": {
+                "nlib/lib-instance": "dev-master@dev",
                 "php": "^7.1.3"
             },
             "type": "library",
@@ -718,7 +871,7 @@
                 "MIT"
             ],
             "description": "Library log",
-            "time": "2020-04-15T08:04:40+00:00"
+            "time": "2020-07-15T14:32:27+00:00"
         },
         {
             "name": "nlib/lib-orm",
@@ -726,15 +879,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NathETS/lib-orm.git",
-                "reference": "fa560ce27a233771331fdf8f9bdaacb37125c12d"
+                "reference": "56f16e44a590b862808a2371deec82fa9651f459"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NathETS/lib-orm/zipball/fa560ce27a233771331fdf8f9bdaacb37125c12d",
-                "reference": "fa560ce27a233771331fdf8f9bdaacb37125c12d",
+                "url": "https://api.github.com/repos/NathETS/lib-orm/zipball/56f16e44a590b862808a2371deec82fa9651f459",
+                "reference": "56f16e44a590b862808a2371deec82fa9651f459",
                 "shasum": ""
             },
             "require": {
+                "nlib/lib-instance": "dev-master@dev",
                 "nlib/lib-log": "dev-master@dev",
                 "nlib/lib-path": "dev-master@dev",
                 "nlib/lib-yaml": "dev-master@dev",
@@ -751,7 +905,7 @@
                 "MIT"
             ],
             "description": "Library Orm",
-            "time": "2020-04-16T13:57:01+00:00"
+            "time": "2020-07-15T14:32:47+00:00"
         },
         {
             "name": "nlib/lib-path",
@@ -759,12 +913,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NathETS/lib-path.git",
-                "reference": "3f997a733cfc4405891bed93974ab771a12b46fb"
+                "reference": "a681d736f67345409e14bfa7dfeb5d23d953ef5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NathETS/lib-path/zipball/3f997a733cfc4405891bed93974ab771a12b46fb",
-                "reference": "3f997a733cfc4405891bed93974ab771a12b46fb",
+                "url": "https://api.github.com/repos/NathETS/lib-path/zipball/a681d736f67345409e14bfa7dfeb5d23d953ef5b",
+                "reference": "a681d736f67345409e14bfa7dfeb5d23d953ef5b",
                 "shasum": ""
             },
             "require": {
@@ -781,7 +935,7 @@
                 "MIT"
             ],
             "description": "Library Path",
-            "time": "2020-04-16T12:31:04+00:00"
+            "time": "2020-07-24T12:43:03+00:00"
         },
         {
             "name": "nlib/lib-tool",
@@ -789,12 +943,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NathETS/lib-tool.git",
-                "reference": "3af95e601bbb7f197d1bb7214ffe8cca03d1f7e2"
+                "reference": "951c6b1a8c5996a2b940a31920e6dd4792f3700e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NathETS/lib-tool/zipball/3af95e601bbb7f197d1bb7214ffe8cca03d1f7e2",
-                "reference": "3af95e601bbb7f197d1bb7214ffe8cca03d1f7e2",
+                "url": "https://api.github.com/repos/NathETS/lib-tool/zipball/951c6b1a8c5996a2b940a31920e6dd4792f3700e",
+                "reference": "951c6b1a8c5996a2b940a31920e6dd4792f3700e",
                 "shasum": ""
             },
             "require": {
@@ -811,7 +965,7 @@
                 "MIT"
             ],
             "description": "Library Tool",
-            "time": "2020-04-07T15:07:05+00:00"
+            "time": "2020-06-26T09:23:31+00:00"
         },
         {
             "name": "nlib/lib-view",
@@ -819,15 +973,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NathETS/lib-view.git",
-                "reference": "b378f651a354b7b50f7472d6dabf671d51f6f755"
+                "reference": "ff0e99879f81c32a24a22ff55f19ea4ce52b37a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NathETS/lib-view/zipball/b378f651a354b7b50f7472d6dabf671d51f6f755",
-                "reference": "b378f651a354b7b50f7472d6dabf671d51f6f755",
+                "url": "https://api.github.com/repos/NathETS/lib-view/zipball/ff0e99879f81c32a24a22ff55f19ea4ce52b37a8",
+                "reference": "ff0e99879f81c32a24a22ff55f19ea4ce52b37a8",
                 "shasum": ""
             },
             "require": {
+                "nlib/lib-instance": "dev-master@dev",
                 "nlib/lib-path": "dev-master@dev",
                 "php": "^7.1.3"
             },
@@ -842,7 +997,7 @@
                 "MIT"
             ],
             "description": "Library View",
-            "time": "2020-02-19T13:24:16+00:00"
+            "time": "2020-07-15T14:33:10+00:00"
         },
         {
             "name": "nlib/lib-yaml",
@@ -921,24 +1076,24 @@
         },
         {
             "name": "phpoption/phpoption",
-            "version": "1.7.3",
+            "version": "1.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "4acfd6a4b33a509d8c88f50e5222f734b6aeebae"
+                "reference": "994ecccd8f3283ecf5ac33254543eb0ac946d525"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/4acfd6a4b33a509d8c88f50e5222f734b6aeebae",
-                "reference": "4acfd6a4b33a509d8c88f50e5222f734b6aeebae",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/994ecccd8f3283ecf5ac33254543eb0ac946d525",
+                "reference": "994ecccd8f3283ecf5ac33254543eb0ac946d525",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.5.9 || ^7.0 || ^8.0"
             },
             "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.3",
-                "phpunit/phpunit": "^4.8.35 || ^5.0 || ^6.0 || ^7.0"
+                "bamarni/composer-bin-plugin": "^1.4.1",
+                "phpunit/phpunit": "^4.8.35 || ^5.7.27 || ^6.5.6 || ^7.0 || ^8.0 || ^9.0"
             },
             "type": "library",
             "extra": {
@@ -972,7 +1127,17 @@
                 "php",
                 "type"
             ],
-            "time": "2020-03-21T18:07:53+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpoption/phpoption",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-20T17:29:33+00:00"
         },
         {
             "name": "psr/log",
@@ -1023,16 +1188,16 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "5.3.2",
+            "version": "5.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "5.3.2"
+                "reference": "5.4.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2",
-                "reference": "5.3.2"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.4.2",
+                "reference": "5.4.2"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1056,7 +1221,17 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-12-18T22:19:57+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/roots",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/rootsdev",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2020-06-10T21:43:59+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
@@ -1215,16 +1390,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.15.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14"
+                "reference": "1c302646f6efc070cd46856e600e5e0684d6b454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/1c302646f6efc070cd46856e600e5e0684d6b454",
+                "reference": "1c302646f6efc070cd46856e600e5e0684d6b454",
                 "shasum": ""
             },
             "require": {
@@ -1236,7 +1411,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -1269,24 +1448,38 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2020-02-27T09:26:54+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.4.7",
+            "version": "v4.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "ef166890d821518106da3560086bfcbeb4fadfec"
+                "reference": "c2d2cc66e892322cfcc03f8f12f8340dbd7a3f8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/ef166890d821518106da3560086bfcbeb4fadfec",
-                "reference": "ef166890d821518106da3560086bfcbeb4fadfec",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/c2d2cc66e892322cfcc03f8f12f8340dbd7a3f8a",
+                "reference": "c2d2cc66e892322cfcc03f8f12f8340dbd7a3f8a",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
+                "php": ">=7.1.3",
                 "symfony/polyfill-ctype": "~1.8"
             },
             "conflict": {
@@ -1328,31 +1521,45 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2020-03-30T11:41:10+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-20T08:37:50+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v3.6.3",
+            "version": "v3.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "1b3103013797f04521c6cae5560f604649484066"
+                "reference": "2065beda6cbe75e2603686907b2e45f6f3a5ad82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/1b3103013797f04521c6cae5560f604649484066",
-                "reference": "1b3103013797f04521c6cae5560f604649484066",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2065beda6cbe75e2603686907b2e45f6f3a5ad82",
+                "reference": "2065beda6cbe75e2603686907b2e45f6f3a5ad82",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.4 || ^7.0",
-                "phpoption/phpoption": "^1.5",
-                "symfony/polyfill-ctype": "^1.9"
+                "php": "^5.4 || ^7.0 || ^8.0",
+                "phpoption/phpoption": "^1.5.2",
+                "symfony/polyfill-ctype": "^1.17"
             },
             "require-dev": {
                 "ext-filter": "*",
                 "ext-pcre": "*",
-                "phpunit/phpunit": "^4.8.35 || ^5.0 || ^6.0 || ^7.0"
+                "phpunit/phpunit": "^4.8.35 || ^5.7.27 || ^6.5.6 || ^7.0"
             },
             "suggest": {
                 "ext-filter": "Required to use the boolean validator.",
@@ -1391,49 +1598,57 @@
                 "env",
                 "environment"
             ],
-            "time": "2020-04-12T15:18:03+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/vlucas/phpdotenv",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T19:04:52+00:00"
         },
         {
             "name": "wpackagist-plugin/acf-content-analysis-for-yoast-seo",
-            "version": "dev-trunk",
+            "version": "2.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/acf-content-analysis-for-yoast-seo/",
-                "reference": "trunk"
+                "reference": "tags/2.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/acf-content-analysis-for-yoast-seo.zip?timestamp=1586249221"
+                "url": "https://downloads.wordpress.org/plugin/acf-content-analysis-for-yoast-seo.2.6.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/acf-content-analysis-for-yoast-seo/",
-            "time": "2020-04-07T08:47:01+00:00"
+            "homepage": "https://wordpress.org/plugins/acf-content-analysis-for-yoast-seo/"
         },
         {
             "name": "wpackagist-plugin/acf-flexible-content-modal",
-            "version": "dev-trunk",
+            "version": "1.2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/acf-flexible-content-modal/",
-                "reference": "trunk"
+                "reference": "tags/1.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/acf-flexible-content-modal.zip?timestamp=1549914077"
+                "url": "https://downloads.wordpress.org/plugin/acf-flexible-content-modal.1.2.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/acf-flexible-content-modal/",
-            "time": "2019-02-11T19:41:17+00:00"
+            "homepage": "https://wordpress.org/plugins/acf-flexible-content-modal/"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields-font-awesome",
-            "version": "dev-trunk",
+            "version": "3.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields-font-awesome/",
@@ -1447,20 +1662,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/advanced-custom-fields-font-awesome/",
-            "time": "2020-02-25T22:18:07+00:00"
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields-font-awesome/"
         },
         {
             "name": "wpackagist-plugin/amp",
-            "version": "1.5.3",
+            "version": "1.5.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/amp/",
-                "reference": "tags/1.5.3"
+                "reference": "tags/1.5.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amp.1.5.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/amp.1.5.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1470,34 +1684,33 @@
         },
         {
             "name": "wpackagist-plugin/autoptimize",
-            "version": "dev-trunk",
+            "version": "2.7.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autoptimize/",
-                "reference": "trunk"
+                "reference": "tags/2.7.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autoptimize.zip?timestamp=1585732009"
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.7.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/autoptimize/",
-            "time": "2020-04-01T09:06:49+00:00"
+            "homepage": "https://wordpress.org/plugins/autoptimize/"
         },
         {
             "name": "wpackagist-plugin/breadcrumb-navxt",
-            "version": "6.4.0",
+            "version": "6.5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/breadcrumb-navxt/",
-                "reference": "tags/6.4.0"
+                "reference": "tags/6.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/breadcrumb-navxt.6.4.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/breadcrumb-navxt.6.5.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1507,15 +1720,15 @@
         },
         {
             "name": "wpackagist-plugin/cache-enabler",
-            "version": "1.3.5",
+            "version": "1.4.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cache-enabler/",
-                "reference": "tags/1.3.5"
+                "reference": "tags/1.4.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cache-enabler.1.3.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/cache-enabler.1.4.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1543,15 +1756,15 @@
         },
         {
             "name": "wpackagist-plugin/classic-editor",
-            "version": "1.5",
+            "version": "1.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/classic-editor/",
-                "reference": "tags/1.5"
+                "reference": "tags/1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.6.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1561,15 +1774,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "5.1.7",
+            "version": "5.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/5.1.7"
+                "reference": "tags/5.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.2.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1579,15 +1792,15 @@
         },
         {
             "name": "wpackagist-plugin/cookie-notice",
-            "version": "1.3.1",
+            "version": "1.3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cookie-notice/",
-                "reference": "tags/1.3.1"
+                "reference": "tags/1.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cookie-notice.1.3.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/cookie-notice.1.3.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1597,15 +1810,15 @@
         },
         {
             "name": "wpackagist-plugin/custom-permalinks",
-            "version": "1.5.1",
+            "version": "1.7.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/custom-permalinks/",
-                "reference": "tags/1.5.1"
+                "reference": "tags/1.7.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-permalinks.1.5.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/custom-permalinks.1.7.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1615,34 +1828,33 @@
         },
         {
             "name": "wpackagist-plugin/duplicate-post",
-            "version": "dev-trunk",
+            "version": "3.2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/duplicate-post/",
-                "reference": "trunk"
+                "reference": "tags/3.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicate-post.zip?timestamp=1584624368"
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/duplicate-post/",
-            "time": "2020-03-19T13:26:08+00:00"
+            "homepage": "https://wordpress.org/plugins/duplicate-post/"
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "5.2.5",
+            "version": "5.7.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/5.2.5"
+                "reference": "tags/5.7.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.2.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.7.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1652,15 +1864,15 @@
         },
         {
             "name": "wpackagist-plugin/flamingo",
-            "version": "2.1.1",
+            "version": "2.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/flamingo/",
-                "reference": "tags/2.1.1"
+                "reference": "tags/2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/flamingo.2.1.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/flamingo.2.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1670,15 +1882,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "4.7.1",
+            "version": "4.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "trunk"
+                "reference": "tags/4.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.zip?timestamp=1585719408"
+                "url": "https://downloads.wordpress.org/plugin/redirection.4.8.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1687,61 +1899,112 @@
             "homepage": "https://wordpress.org/plugins/redirection/"
         },
         {
+            "name": "wpackagist-plugin/regenerate-thumbnails",
+            "version": "3.1.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/regenerate-thumbnails/",
+                "reference": "tags/3.1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/regenerate-thumbnails.3.1.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
+        },
+        {
             "name": "wpackagist-plugin/simple-share-buttons-adder",
-            "version": "dev-trunk",
+            "version": "7.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-share-buttons-adder/",
-                "reference": "trunk"
+                "reference": "tags/7.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-share-buttons-adder.zip?timestamp=1570003098"
+                "url": "https://downloads.wordpress.org/plugin/simple-share-buttons-adder.7.7.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/simple-share-buttons-adder/",
-            "time": "2019-10-02T07:58:18+00:00"
+            "homepage": "https://wordpress.org/plugins/simple-share-buttons-adder/"
+        },
+        {
+            "name": "wpackagist-plugin/webp-converter-for-media",
+            "version": "1.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/webp-converter-for-media/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/webp-converter-for-media.zip?timestamp=1597855318"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/webp-converter-for-media/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "dev-trunk",
+            "version": "14.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "trunk"
+                "reference": "tags/14.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.zip?timestamp=1586859160"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.14.8.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wordpress-seo/",
-            "time": "2020-04-14T10:12:40+00:00"
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
             "name": "wpackagist-plugin/wp-fastest-cache",
-            "version": "dev-trunk",
+            "version": "0.9.0.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-fastest-cache/",
-                "reference": "trunk"
+                "reference": "tags/0.9.0.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-fastest-cache.zip?timestamp=1586558436"
+                "url": "https://downloads.wordpress.org/plugin/wp-fastest-cache.0.9.0.9.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-fastest-cache/",
-            "time": "2020-04-10T22:40:36+00:00"
+            "homepage": "https://wordpress.org/plugins/wp-fastest-cache/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-migrate-db",
+            "version": "1.0.15",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-migrate-db/",
+                "reference": "tags/1.0.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.1.0.15.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-migrate-db/"
         },
         {
             "name": "wpml/wpml-media-translation",
@@ -1799,16 +2062,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.5.4",
+            "version": "3.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "dceec07328401de6211037abbb18bda423677e26"
+                "reference": "e97627871a7eab2f70e59166072a6b767d5834e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/dceec07328401de6211037abbb18bda423677e26",
-                "reference": "dceec07328401de6211037abbb18bda423677e26",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/e97627871a7eab2f70e59166072a6b767d5834e0",
+                "reference": "e97627871a7eab2f70e59166072a6b767d5834e0",
                 "shasum": ""
             },
             "require": {
@@ -1846,28 +2109,25 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2020-01-30T22:20:29+00:00"
+            "time": "2020-08-10T04:50:15+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "eteamsys/wp-library": 20,
-        "wpackagist-plugin/acf-content-analysis-for-yoast-seo": 20,
-        "wpackagist-plugin/acf-flexible-content-modal": 20,
-        "wpackagist-plugin/advanced-custom-fields-font-awesome": 20,
-        "wpackagist-plugin/autoptimize": 20,
-        "wpackagist-plugin/duplicate-post": 20,
-        "wpackagist-plugin/simple-share-buttons-adder": 20,
-        "wpackagist-plugin/wordpress-seo": 20,
-        "wpackagist-plugin/wp-fastest-cache": 20,
         "eteamsys/maisonscompere_theme": 20,
-        "eteamsys/hubspot-sales-allocation": 20
+        "eteamsys/hubspot-sales-allocation": 20,
+        "eteamsys/dflip": 20,
+        "eteamsys/wpai-acf-add-on": 20,
+        "eteamsys/wp-all-import-pro": 20,
+        "eteamsys/wp-all-export-pro": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.1"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
