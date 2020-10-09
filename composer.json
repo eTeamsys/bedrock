@@ -140,7 +140,7 @@
     "wpackagist-plugin/classic-editor": "*",
     "wpackagist-plugin/cache-enabler": "*",
     "wpackagist-plugin/cdn-enabler": "*",
-    "eteamsys/maisonscompere_theme": "dev-feature-faq-seo",
+    "eteamsys/maisonscompere_theme": "dev-feature-chantiers-temoins",
     "wpml/wpml-multilingual-cms": "*",
     "wpml/wpml-string-translation": "*",
     "wpml/wpml-media-translation": "*"
