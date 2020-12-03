@@ -136,6 +136,8 @@
         RewriteRule ^20188\-vente\-de\-maison\-en\-belgique/$ http%1://%{HTTP_HOST}/20187\-vente\-de\-maison\-en\-belgique/ [L,R=301]
         RewriteRule ^20194-nouvelle-construction-a-vendre/$ http%1://%{HTTP_HOST}/53114-nouvelle-construction-a-vendre/ [L,R=301]
         RewriteRule ^20190-nouvelles-constructions-a-vendre/$ http%1://%{HTTP_HOST}/53114-nouvelle-construction-a-vendre/ [L,R=301]
+        RewriteRule ^42472\-construction\-maison\-belgique/$ http%1://%{HTTP_HOST}/25943\-construction\-maison/ [L,R=301]
+        RewriteRule ^42475\-construction\-maison/$ http%1://%{HTTP_HOST}/67002\-construction\-maison/ [L,R=301]
 
         # end of SEO
 
