@@ -180,7 +180,7 @@
     "wpackagist-plugin/cache-enabler": "*",
     "wpackagist-plugin/cdn-enabler": "*",
     "wpackagist-plugin/webp-converter-for-media":"*",
-    "eteamsys/maisonscompere_theme": "dev-feature-faq-seo",
+    "eteamsys/maisonscompere_theme": "dev-integration",
     "wpml/wpml-multilingual-cms": "*",
     "wpml/wpml-string-translation": "*",
     "wpml/wpml-media-translation": "*",
