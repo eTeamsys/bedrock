@@ -43,6 +43,8 @@
 
         #SEO pages redirect
 
+        RewriteCond %{HTTPS} off [OR]
+        RewriteCond %{HTTPS}:s on:(s)
         RewriteRule ^25908\-cle\-sur\-porte/$ http%1://%{HTTP_HOST}/52798\-cle\-sur\-porte/ [L,R=301]
         RewriteRule ^25909\-cle\-sur\-porte/$ http%1://%{HTTP_HOST}/52798\-cle\-sur\-porte/ [L,R=301]
         RewriteRule ^25910\-cle\-sur\-porte/$ http%1://%{HTTP_HOST}/52798\-cle\-sur\-porte/ [L,R=301]
