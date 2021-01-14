@@ -47,6 +47,14 @@
        "url" : "git@github.com:eTeamsys/maisonscompere_theme.git"
     },
     {
+      "type": "vcs",
+      "url" : "git@github.com:eTeamsys/wp-all-import-pro.git"
+    },
+    {
+      "type": "vcs",
+      "url" : "git@github.com:eTeamsys/wp-all-export-pro.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -120,6 +128,8 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "eteamsys/wp-library": "dev-master",
+    "eteamsys/wp-all-import-pro": "dev-master",
+    "eteamsys/wp-all-export-pro": "dev-master",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "dev-trunk",
     "wpackagist-plugin/acf-flexible-content-modal": "dev-trunk",
