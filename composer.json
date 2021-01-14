@@ -48,6 +48,10 @@
     },
     {
       "type": "vcs",
+      "url" : "git@github.com:eTeamsys/wpai-acf-add-on.git"
+    },
+    {
+      "type": "vcs",
       "url" : "git@github.com:eTeamsys/wp-all-import-pro.git"
     },
     {
@@ -128,6 +132,7 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "eteamsys/wp-library": "dev-master",
+    "eteamsys/wpai-acf-add-on": "dev-master",
     "eteamsys/wp-all-import-pro": "dev-master",
     "eteamsys/wp-all-export-pro": "dev-master",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
