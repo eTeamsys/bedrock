@@ -156,7 +156,7 @@
     "wpackagist-plugin/cache-enabler": "*",
     "wpackagist-plugin/cdn-enabler": "*",
     "wpackagist-plugin/web-stories":"*",
-    "eteamsys/maisonscompere_theme": "dev-feature-design-menu",
+    "eteamsys/maisonscompere_theme": "dev-feature-free-catalog",
     "wpml/wpml-multilingual-cms": "*",
     "wpml/wpml-string-translation": "*",
     "wpml/wpml-media-translation": "*"
