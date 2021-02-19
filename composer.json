@@ -178,7 +178,7 @@
     "wpackagist-plugin/amp": "*",
     "wpackagist-plugin/classic-editor": "*",
     "wpackagist-plugin/cache-enabler": "*",
-    "wpackagist-plugin/cdn-enabler": "*",
+    "wpackagist-plugin/cdn-enabler": "1.0.9",
     "wpackagist-plugin/webp-converter-for-media":"*",
     "eteamsys/maisonscompere_theme": "dev-hotfix",
     "wpml/wpml-multilingual-cms": "*",
