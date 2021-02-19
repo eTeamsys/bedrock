@@ -155,7 +155,7 @@
     "wpackagist-plugin/amp": "*",
     "wpackagist-plugin/classic-editor": "*",
     "wpackagist-plugin/cache-enabler": "*",
-    "wpackagist-plugin/cdn-enabler": "*",
+    "wpackagist-plugin/cdn-enabler": "1.0.9",
     "eteamsys/maisonscompere_theme": "dev-master",
     "wpml/wpml-multilingual-cms": "*",
     "wpml/wpml-string-translation": "*",
